@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/THEmmanuel/Portfolio-2.1#readme",
   "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-parallax-tilt": "^1.5.83",
