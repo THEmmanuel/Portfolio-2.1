@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/THEmmanuel/Portfolio-2.1/issues"
   },
-  "homepage": "https://github.com/THEmmanuel/Portfolio-2.1#readme"
+  "homepage": "https://github.com/THEmmanuel/Portfolio-2.1#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-parallax-tilt": "^1.5.83",
+    "react-scroll": "^1.8.4"
+  }
 }
