@@ -1,0 +1,28 @@
+.Footer {
+    height: 12vh;
+    background-color: #1F1F1F;
+}
+
+.FooterText {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 600;
+    margin: auto;
+    color: #FFF;
+    opacity: 0.6;
+    padding-top: 40px;
+}
+
+@media(max-width:720px){
+    .Footer{
+        height: 8vh;
+
+    }
+
+    .FooterText{
+        font-size: 13px;
+        padding-top: 15px;
+    }
+}

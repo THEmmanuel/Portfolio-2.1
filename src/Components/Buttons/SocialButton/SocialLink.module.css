@@ -1,0 +1,30 @@
+.SocialLink{
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.SocialIcon{
+    margin: auto;
+}
+
+@media(max-width:1280px){
+    .SocialLink{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media(max-width:480px){
+    .SocialLink{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+
+    .SocialIcon{
+        width: 20px;
+        height: 20px;
+        margin: auto;
+    }
+}

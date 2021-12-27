@@ -1,0 +1,24 @@
+.NavBar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #151515;
+    margin: auto;
+    height: 40px;
+}
+
+.NavContent {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 50%;
+    text-align: center;
+    margin-left: 14px;
+    justify-content: center;
+}
+
+.NavLogo {
+}
+
+.NavButton {
+    
+}

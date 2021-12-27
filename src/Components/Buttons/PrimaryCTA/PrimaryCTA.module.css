@@ -1,0 +1,40 @@
+.PrimaryCTA {
+    border: #A1A1A1 1px solid;
+    border-radius: 5px;
+    width: 120px;
+    height : 40px;
+    margin: 10px 10px 10px 0;
+    background-color: transparent;
+    color: #FFFFFF;
+    opacity: 0.87;
+    transition: all 0.8s ease-out;
+}
+
+.PrimaryCTA:hover{
+    border: none;
+    background-color: #A1A1A1;
+    color: #1F1F1F;
+}
+
+/* 
+a{
+    text-decoration: none;
+}
+
+@media(max-width: 1280px){
+    .PrimaryCTA{
+        width: 90px;
+        height: 30px;
+        font-size: 12px;
+        margin: 5px 5px 5px 0;
+    }
+}
+
+
+@media(max-width: 480px){
+    .PrimaryCTA{
+        width: 75px;
+        height: 30px;
+        font-size: 11px;
+    }
+} */

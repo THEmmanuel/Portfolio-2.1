@@ -1,0 +1,53 @@
+.Portfolio {
+    display: flex;
+    flex-direction: column;
+    background-color: #151515;
+    background-image: url(../../Assets/SVG/Asset\ 11-nobg.svg);
+    background-position: right 20% bottom 10px;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    padding-bottom: 250px;
+    /* height: 980px; */
+}
+
+.SectionTitle {
+    color: #717171;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+}
+
+.ProjectCardContianer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: repeat(auto-fill, minmax(480px, 2fr)); */
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 200px;
+}
+
+@media(max-width:720px) {
+
+    .Portfolio {
+        padding-bottom: 100px;
+        background-size: 65%;
+        background-size: 100%;
+    }
+
+    .SectionTitle {
+        font-size: 20px;
+        margin: auto;
+        padding-left: 20px;
+    }
+
+    .ProjectCardContianer {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 10px;
+    }
+}
