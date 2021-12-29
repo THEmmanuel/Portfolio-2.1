@@ -25,6 +25,7 @@ const Home = (props) => {
                         <Link to='portfolio' smooth='true'>
                             <HomePrimaryCTA text='My Work' />
                         </Link>
+                        
                         <Link to='contact' smooth='true'>
                             <HomeSecondaryCTA text='Contact Me' />
                         </Link>

@@ -21,7 +21,7 @@ const Contact = (props) => {
                         <ContactButton ButtonIcon='https://img.icons8.com/ios-filled/25/C1C1C1/mail.png' />
                     </a>
 
-                    <a href="https://www.linkedin.com/mwlite/in/emmanuel-ayodele-412aa11b3" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/lunartik42/" target="_blank" rel="noopener noreferrer">
                         <ContactButton ButtonIcon='https://img.icons8.com/ios-filled/25/C1C1C1/linkedin.png' />
                     </a>
 
