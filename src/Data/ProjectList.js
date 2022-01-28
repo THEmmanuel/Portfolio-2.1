@@ -18,9 +18,32 @@ import react from '../../src/Assets/icons/react.png'
 import svg from '../../src/Assets/icons/svg.png'
 import typescript from '../../src/Assets/icons/typescript.png'
 import webrtc from '../../src/Assets/icons/webrtc.png'
+import reactProject from '../../src/Assets/icons/react-project.png'
 import wordpress from '../../src/Assets/icons/wordpress.png'
 
 const ProjectList = [{
+        ProjectImage: reactProject,
+        ProjectName: 'Typescript React Starter',
+        ProjectColor: '#021924',
+        ProjectDescription: `A minimal starter for starting React.js projects with Typescript.`,
+
+        ProjectTechnologies: [typescript, react, git, github],
+        ProjectID: 'Project-01'
+    },
+
+    {
+        ProjectImage: video,
+        ProjectName: 'Video Call App',
+        ProjectDescription: `Make anonymous video and voice calls worldwide with a one time token.`,
+
+        ProjectTechnologies: [css, javascript, react, webrtc, git],
+
+        ProjectLiveLink: 'https://infinite-bayou-00748.herokuapp.com/',
+        ProjectID: 'Project-05'
+    },
+
+
+    {
         ProjectImage: send,
         ProjectName: 'flink.ng',
         ProjectColor: '#3D503A',
@@ -39,7 +62,7 @@ const ProjectList = [{
         ProjectTechnologies: [css, javascript, react, firebase, git],
 
         ProjectLiveLink: 'https://nubiamania.com/',
-        ProjectID: 'Project-01'
+        ProjectID: 'Project-03'
     },
 
     {
@@ -52,28 +75,16 @@ const ProjectList = [{
         ProjectTechnologies: [css, html, wordpress, javascript, git],
 
         ProjectLiveLink: 'https://colturemgt.com/',
-        ProjectID: 'Project-02'
+        ProjectID: 'Project-04'
     },
-
-    {
-        ProjectImage: video,
-        ProjectName: 'Video Call App',
-        ProjectDescription: `Make anonymous video and voice calls worldwide with a one time token.`,
-
-        ProjectTechnologies: [css, javascript, react, webrtc, git],
-
-        ProjectLiveLink: 'https://infinite-bayou-00748.herokuapp.com/',
-        ProjectID: 'Project-03'
-    },
-
 
     {
         ProjectImage: website,
         ProjectName: 'Quick Credit Frontend',
         ProjectDescription: 'Loan app built during a bootcamp at Andela.',
-        ProjectColor: '#29507D',        
+        ProjectColor: '#29507D',
         ProjectTechnologies: [css, html, javascript, git],
-        ProjectID: 'Project-04',
+        ProjectID: 'Project-06',
         ProjectLiveLink: 'https://themmanuel.github.io/Quick-Credit/UI',
     },
 
@@ -86,7 +97,7 @@ const ProjectList = [{
         ProjectTechnologies: [html, css],
 
         ProjectLiveLink: 'https://pale-blue.netlify.app/',
-        ProjectID: 'Project-05'
+        ProjectID: 'Project-07'
     },
 
     {
@@ -98,7 +109,7 @@ const ProjectList = [{
         ProjectTechnologies: [csharp, git],
 
         ProjectLiveLink: 'https://github.com/THEmmanuel/moosic',
-        ProjectID: 'Project-06'
+        ProjectID: 'Project-08'
     }
 
 ]
