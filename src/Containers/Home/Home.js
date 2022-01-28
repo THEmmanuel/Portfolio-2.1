@@ -17,7 +17,9 @@ const Home = (props) => {
                         </article>
 
                         <article className={style.ProfessionalSummary}>
-                            I'm a software engineer with close to 5 years of experience. Currently focued on building front-end web and mobile experiences that perform and scale. Looking to contribute to the future of the internet through Web 3.0
+                            I'm a software engineer with 5 years of experience. Freelancing since 2018. I currently focus on building front-end web and mobile experiences that perform and scale. Exploring open source as well.
+                            <p/>
+                            In my free time, I'm a prolific reader and an avid gamer with a wide array of interests.
                         </article>
                     </div>
 
