@@ -28,6 +28,7 @@ const ProjectList = [{
         ProjectDescription: `A minimal starter for starting React.js projects with Typescript.`,
 
         ProjectTechnologies: [typescript, react, git, github],
+        ProjectLiveLink: 'https://github.com/THEmmanuel/typescript-react-starter',
         ProjectID: 'Project-01'
     },
 
