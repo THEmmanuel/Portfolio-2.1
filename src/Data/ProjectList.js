@@ -21,11 +21,12 @@ import webrtc from '../../src/Assets/icons/webrtc.png'
 import reactProject from '../../src/Assets/icons/react-project.png'
 import wordpress from '../../src/Assets/icons/wordpress.png'
 
-const ProjectList = [{
+const ProjectList = [
+    {
         ProjectImage: reactProject,
         ProjectName: 'Typescript React Starter',
         ProjectColor: '#021924',
-        ProjectDescription: `A minimal starter for starting React.js projects with Typescript.`,
+        ProjectDescription: `A minimal starter for starting React.js projects with Typescript without CRA.`,
 
         ProjectTechnologies: [typescript, react, git, github],
         ProjectLiveLink: 'https://github.com/THEmmanuel/typescript-react-starter',

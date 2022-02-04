@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className = {style.Footer}>
             <span className = {style.FooterText}>
-                2021 | Emmanuel Ayodele Bello
+                2022 | Emmanuel Ayodele Bello
             </span>
         </footer>
     )

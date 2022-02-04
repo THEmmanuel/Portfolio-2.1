@@ -25,7 +25,7 @@ const Contact = (props) => {
                         <ContactButton ButtonIcon='https://img.icons8.com/ios-filled/25/C1C1C1/linkedin.png' />
                     </a>
 
-                    <a href="https://twitter.com/Lunartik_42" target="_blank" rel="noopener noreferrer">
+                    <a href="https://twitter.com/Lunar__Tik" target="_blank" rel="noopener noreferrer">
                         <ContactButton ButtonIcon='https://img.icons8.com/ios-filled/25/C1C1C1/twitter.png' />
                     </a>
 
