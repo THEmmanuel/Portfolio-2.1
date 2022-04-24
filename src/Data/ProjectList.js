@@ -40,7 +40,7 @@ const ProjectList = [
 
         ProjectTechnologies: [css, javascript, react, webrtc, git],
 
-        ProjectLiveLink: 'https://infinite-bayou-00748.herokuapp.com/',
+        ProjectLiveLink: 'https://callr-x.herokuapp.com/',
         ProjectID: 'Project-05'
     },
 
