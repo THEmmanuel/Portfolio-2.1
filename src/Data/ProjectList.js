@@ -35,7 +35,7 @@ const ProjectList = [
 
     {
         ProjectImage: video,
-        ProjectName: 'Video Call App',
+        ProjectName: 'Callr',
         ProjectDescription: `Make anonymous video and voice calls worldwide with a one time token.`,
 
         ProjectTechnologies: [css, javascript, react, webrtc, git],
