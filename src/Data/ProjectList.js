@@ -22,6 +22,54 @@ import reactProject from '../../src/Assets/icons/react-project.png'
 import wordpress from '../../src/Assets/icons/wordpress.png'
 
 const ProjectList = [
+	{
+        ProjectImage: reactProject,
+        ProjectName: 'Hydra DAO DeFi',
+        ProjectColor: '#021924',
+        ProjectDescription: `Joined Hydra DAO to build a crypto native reserve currency with a rising floor
+		price and a stable market price during the ETHGlobal Hackmoney Hackathon.`,
+
+        ProjectTechnologies: [typescript, react, git, github],
+        ProjectLiveLink: 'https://github.com/THEmmanuel/typescript-react-starter',
+        ProjectID: 'Project-01'
+    },
+
+	{
+        ProjectImage: reactProject,
+        ProjectName: 'Buildspace NFT game',
+        ProjectColor: '#021924',
+        ProjectDescription: `Joined Hydra DAO to build a crypto native reserve currency with a rising floor
+		price and a stable market price during the ETHGlobal Hackmoney Hackathon.`,
+
+        ProjectTechnologies: [typescript, react, git, github],
+        ProjectLiveLink: 'https://github.com/THEmmanuel/typescript-react-starter',
+        ProjectID: 'Project-01'
+    },
+
+	{
+        ProjectImage: reactProject,
+        ProjectName: 'Buildspace NFT dApp',
+        ProjectColor: '#021924',
+        ProjectDescription: `Joined Hydra DAO to build a crypto native reserve currency with a rising floor
+		price and a stable market price during the ETHGlobal Hackmoney Hackathon.`,
+
+        ProjectTechnologies: [typescript, react, git, github],
+        ProjectLiveLink: 'https://github.com/THEmmanuel/typescript-react-starter',
+        ProjectID: 'Project-01'
+    },
+
+	{
+        ProjectImage: reactProject,
+        ProjectName: 'Self Driving Car',
+        ProjectColor: '#021924',
+        ProjectDescription: `Joined Hydra DAO to build a crypto native reserve currency with a rising floor
+		price and a stable market price during the ETHGlobal Hackmoney Hackathon.`,
+
+        ProjectTechnologies: [typescript, react, git, github],
+        ProjectLiveLink: 'https://github.com/THEmmanuel/typescript-react-starter',
+        ProjectID: 'Project-01'
+    },
+
     {
         ProjectImage: reactProject,
         ProjectName: 'Typescript React Starter',
