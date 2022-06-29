@@ -50,8 +50,8 @@ const ProjectList = [
         ProjectImage: reactProject,
         ProjectName: 'Buildspace NFT dApp',
         ProjectColor: '#021924',
-        ProjectDescription: `Joined Hydra DAO to build a crypto native reserve currency with a rising floor
-		price and a stable market price during the ETHGlobal Hackmoney Hackathon.`,
+        ProjectDescription: ` A dApp that allows users to connect their wallets and programmatically generate NFTs on-chain to the Ethereum 
+		blockchain.`,
 
         ProjectTechnologies: [typescript, react, git, github],
         ProjectLiveLink: 'https://github.com/THEmmanuel/typescript-react-starter',
@@ -62,8 +62,7 @@ const ProjectList = [
         ProjectImage: reactProject,
         ProjectName: 'Self Driving Car',
         ProjectColor: '#021924',
-        ProjectDescription: `Joined Hydra DAO to build a crypto native reserve currency with a rising floor
-		price and a stable market price during the ETHGlobal Hackmoney Hackathon.`,
+        ProjectDescription: `Car with self driving AI built from scratch with no libraries from Radu Mariescu Istodor's advanced javascript course`,
 
         ProjectTechnologies: [typescript, react, git, github],
         ProjectLiveLink: 'https://github.com/THEmmanuel/typescript-react-starter',
