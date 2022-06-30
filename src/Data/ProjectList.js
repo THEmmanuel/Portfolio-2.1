@@ -27,7 +27,7 @@ const ProjectList = [
         ProjectName: 'Hydra DAO DeFi',
         ProjectColor: '#021924',
         ProjectDescription: `Joined Hydra DAO to build a crypto native reserve currency with a rising floor
-		price and a stable market price during the ETHGlobal Hackmoney Hackathon.`,
+		price and a stable market price during the 2022 ETHGlobal Hackmoney Hackathon.`,
 
         ProjectTechnologies: [typescript, react, git, github],
         ProjectLiveLink: 'https://github.com/THEmmanuel/typescript-react-starter',
@@ -38,8 +38,8 @@ const ProjectList = [
         ProjectImage: reactProject,
         ProjectName: 'Buildspace NFT game',
         ProjectColor: '#021924',
-        ProjectDescription: `Joined Hydra DAO to build a crypto native reserve currency with a rising floor
-		price and a stable market price during the ETHGlobal Hackmoney Hackathon.`,
+        ProjectDescription: `Turn-based NFT browser game with dApp that allows users to play as Darth Vader, Hulk and Goku against Godzilla and mint their NFTs to the Ethereum 
+		blockchain as they play`,
 
         ProjectTechnologies: [typescript, react, git, github],
         ProjectLiveLink: 'https://github.com/THEmmanuel/typescript-react-starter',
@@ -62,10 +62,10 @@ const ProjectList = [
         ProjectImage: reactProject,
         ProjectName: 'Self Driving Car',
         ProjectColor: '#021924',
-        ProjectDescription: `Car with self driving AI built from scratch with no libraries from Radu Mariescu Istodor's advanced javascript course`,
+        ProjectDescription: `Car with self driving AI with neural network built from scratch with no libraries from Radu Mariescu Istodor's advanced javascript course`,
 
         ProjectTechnologies: [typescript, react, git, github],
-        ProjectLiveLink: 'https://github.com/THEmmanuel/typescript-react-starter',
+        ProjectLiveLink: 'https://self-driving.netlify.app',
         ProjectID: 'Project-01'
     },
 
