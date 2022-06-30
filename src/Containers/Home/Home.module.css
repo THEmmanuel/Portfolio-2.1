@@ -1,72 +1,81 @@
 span {
-    display: block;
-    margin-bottom: 10px;
+	display: block;
+	margin-bottom: 10px;
 }
 
 .Home {
-    background-color: #151515;
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-height: 1920px;
-    background-position: right 20% bottom 50%;
+	background-color: #151515;
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-height: 1920px;
+	background-position: right 20% bottom 50%;
 }
 
 .IntroductionContainer {
-    margin: 75px auto auto auto;
+	margin: 75px auto auto auto;
 }
 
 .Introduction {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    height: 90%;
-    grid-gap: 35px;
-    margin-left: 25px;
-    background-image: url(https://ik.imagekit.io/t2vnkmzt25/Asset_12-nobg_1L_p04y2UW.svg?updatedAt=1640699904090); 
-    background-repeat: no-repeat;
-    background-position: right 10% bottom 20%;
-    background-size: 48%;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	height: 90%;
+	grid-gap: 35px;
+	margin-left: 25px;
+	background-image: url(https://ik.imagekit.io/t2vnkmzt25/Asset_12-nobg_1L_p04y2UW.svg?updatedAt=1640699904090);
+	background-repeat: no-repeat;
+	background-position: right 10% bottom 20%;
+	background-size: 48%;
+	justify-content: center;
 }
 
-.IntroductionText{
-    display: flex;
-    grid-gap: 30px;
-    flex-direction: column;
-    width: 40%;
+.IntroductionText {
+	display: flex;
+	grid-gap: 30px;
+	flex-direction: column;
+	width: 40%;
 }
 
 .NameIntroduction {
-    color: #C1C1C1;
-    font-weight: 700;
-    font-size: 48px;
+	color: #C1C1C1;
+	font-weight: 700;
+	font-size: 48px;
 }
 
 .ProfessionalSummary {
-    color: #717171;
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 20px;
+	color: #717171;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 20px;
 }
 
 @media(max-width:720px) {
-    .Home{
-        height: 100vh;
-    }   
+	.Home {
+		height: 100vh;
+	}
 
-   .IntroductionContainer{
-       width: 100%;
-       margin: 25px auto auto auto;
-   }
+	.IntroductionContainer {
+		width: 100%;
+		margin: 25px auto auto auto;
+	}
 
-   .IntroductionText{
-       width: 100%;
-   }
+	.IntroductionText {
+		width: 100%;
+	}
 
-   .Introduction{
-       background-size: 120%;
-       background-position: bottom 15% right;
-   }
+	.Introduction {
+		background-size: 120%;
+		background-position: bottom 15% right;
+	}
+
+	.ProfessionalSummary{
+		text-align: center;
+	}
+
+	.Buttons {
+		display: flex;
+		justify-content: center;
+	}
 }
