@@ -71,7 +71,11 @@ span {
 	}
 
 	.ProfessionalSummary{
-		/* text-align: center; */
+		text-align: center;
+	}
+
+	.NameIntroduction {
+		text-align: center;
 	}
 
 	.Buttons {

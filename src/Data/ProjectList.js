@@ -36,7 +36,7 @@ const ProjectList = [{
 		ProjectName: 'Hydra DAO DeFi',
 		ProjectColor: '#851344',
 		ProjectDescription: `Joined Hydra DAO to build a crypto native reserve currency with a rising floor
-		price and a stable market price during the 2022 ETHGlobal Hackmoney Hackathon.`,
+		price and a stable market price during the 2022 ETHGlobal Hackmoney Hackathon. Won $5000 pool prize from ZkSync.`,
 
 		ProjectTechnologies: [typescript, react, git, github, solidity, ethereum],
 		ProjectLiveLink: 'https://showcase.ethglobal.com/hackmoney2022/hydra-dao-1cccw',
