@@ -9,7 +9,7 @@ import Footer from './Containers/Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      {/* <NavBar /> */}
       <Home />
       <Portfolio />
       <Contact />

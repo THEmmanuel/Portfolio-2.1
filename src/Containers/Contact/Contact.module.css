@@ -53,6 +53,12 @@
     bottom: 80px;
 }
 
+.ButtonContainer{
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+}
+
 @media(max-width:720px){
     .Contact{
         background-size: 50%;
