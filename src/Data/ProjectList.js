@@ -5,7 +5,10 @@ import send from '../../src/Assets/icons/send.png';
 import threeD from '../../src/Assets/icons/3d.png';
 import art from '../../src/Assets/icons/art.png';
 import music from '../../src/Assets/icons/music.png';
+//ethereum for blockchain and web3 stuff
 
+
+//solidity, hardhat, node, express, ethereum, mongodb
 import csharp from '../../src/Assets/icons/csharp.png'
 import css from '../../src/Assets/icons/css.png'
 import firebase from '../../src/Assets/icons/firebase.png'
@@ -21,145 +24,143 @@ import webrtc from '../../src/Assets/icons/webrtc.png'
 import reactProject from '../../src/Assets/icons/react-project.png'
 import wordpress from '../../src/Assets/icons/wordpress.png'
 
-const ProjectList = [
-	{
-        ProjectImage: reactProject,
-        ProjectName: 'Hydra DAO DeFi',
-        ProjectColor: '#021924',
-        ProjectDescription: `Joined Hydra DAO to build a crypto native reserve currency with a rising floor
+const ProjectList = [{
+		ProjectImage: reactProject,
+		ProjectName: 'Hydra DAO DeFi',
+		ProjectColor: '#851344',
+		ProjectDescription: `Joined Hydra DAO to build a crypto native reserve currency with a rising floor
 		price and a stable market price during the 2022 ETHGlobal Hackmoney Hackathon.`,
 
-        ProjectTechnologies: [typescript, react, git, github],
-        ProjectLiveLink: 'https://showcase.ethglobal.com/hackmoney2022/hydra-dao-1cccw',
-        ProjectID: 'Project-01'
-    },
+		ProjectTechnologies: [typescript, react, git, github, solidity, ethereum, hardhat],
+		ProjectLiveLink: 'https://showcase.ethglobal.com/hackmoney2022/hydra-dao-1cccw',
+		ProjectID: 'Project-01'
+	},
 
 	{
-        ProjectImage: reactProject,
-        ProjectName: 'Buildspace NFT game',
-        ProjectColor: '#021924',
-        ProjectDescription: `Turn-based NFT browser game with dApp that allows users to play as Darth Vader, Hulk and Goku against Godzilla and mint their NFTs to the Ethereum 
+		ProjectImage: art,
+		ProjectName: 'Nubiamania(demo)',
+		ProjectColor: '#CC9C7C',
+		ProjectDescription: 'Online trade fair site for independent African creatives.',
+
+		ProjectTechnologies: [css, javascript, react, firebase, git],
+
+		ProjectLiveLink: 'https://nubiamania.herokuapp.com/',
+		ProjectID: 'Project-03'
+	},
+
+	{
+		ProjectImage: reactProject,
+		ProjectName: 'Buildspace NFT game',
+		ProjectColor: '#073F45',
+		ProjectDescription: `Turn-based NFT browser game with dApp that allows users to play as Darth Vader, Hulk and Goku against Godzilla and mint their NFTs to the Ethereum 
 		blockchain as they play`,
 
-        ProjectTechnologies: [typescript, react, git, github],
-        ProjectLiveLink: 'https://comfy-taffy-de7be5.netlify.app/',
-        ProjectID: 'Project-01'
-    },
+		ProjectTechnologies: [typescript, react, git, github],
+		ProjectLiveLink: 'https://comfy-taffy-de7be5.netlify.app/',
+		ProjectID: 'Project-01'
+	},
 
 	{
-        ProjectImage: reactProject,
-        ProjectName: 'Buildspace NFT dApp',
-        ProjectColor: '#021924',
-        ProjectDescription: ` A dApp that allows users to connect their wallets and programmatically generate NFTs on-chain to the Ethereum 
+		ProjectImage: reactProject,
+		ProjectName: 'Buildspace NFT dApp',
+		ProjectColor: '#14962E',
+		ProjectDescription: ` A dApp that allows users to connect their wallets and programmatically generate NFTs on-chain to the Ethereum 
 		blockchain.`,
 
-        ProjectTechnologies: [typescript, react, git, github],
-        ProjectLiveLink: 'https://ecstatic-einstein-064be3.netlify.app/',
-        ProjectID: 'Project-01'
-    },
+		ProjectTechnologies: [typescript, react, git, github],
+		ProjectLiveLink: 'https://ecstatic-einstein-064be3.netlify.app/',
+		ProjectID: 'Project-01'
+	},
 
 	{
-        ProjectImage: reactProject,
-        ProjectName: 'Self Driving Car',
-        ProjectColor: '#021924',
-        ProjectDescription: `Car with self driving AI with neural network built from scratch with no libraries from Radu Mariescu Istodor's advanced javascript course`,
+		ProjectImage: video,
+		ProjectName: 'Callr',
+		ProjectDescription: `Make anonymous video and voice calls worldwide with a one time token.`,
 
-        ProjectTechnologies: [typescript, react, git, github],
-        ProjectLiveLink: 'https://self-driving.netlify.app',
-        ProjectID: 'Project-01'
-    },
+		ProjectTechnologies: [css, javascript, react, webrtc, git],
 
-    {
-        ProjectImage: reactProject,
-        ProjectName: 'Typescript React Starter',
-        ProjectColor: '#021924',
-        ProjectDescription: `A minimal starter for starting React.js projects with Typescript without CRA.`,
+		ProjectLiveLink: 'https://callr-x.herokuapp.com/',
+		ProjectID: 'Project-05'
+	},
 
-        ProjectTechnologies: [typescript, react, git, github],
-        ProjectLiveLink: 'https://github.com/THEmmanuel/typescript-react-starter',
-        ProjectID: 'Project-01'
-    },
+	{
+		ProjectImage: reactProject,
+		ProjectName: 'Self Driving Car',
+		ProjectColor: '#1B1482',
+		ProjectDescription: `Car with self driving AI with neural network built from scratch with no libraries from Radu Mariescu Istodor's advanced javascript course`,
 
-    {
-        ProjectImage: video,
-        ProjectName: 'Callr',
-        ProjectDescription: `Make anonymous video and voice calls worldwide with a one time token.`,
+		ProjectTechnologies: [typescript, react, git, github],
+		ProjectLiveLink: 'https://self-driving.netlify.app',
+		ProjectID: 'Project-01'
+	},
 
-        ProjectTechnologies: [css, javascript, react, webrtc, git],
+	{
+		ProjectImage: reactProject,
+		ProjectName: 'Typescript React Starter',
+		ProjectColor: '#021924',
+		ProjectDescription: `A minimal starter for starting React.js projects with Typescript without CRA.`,
 
-        ProjectLiveLink: 'https://callr-x.herokuapp.com/',
-        ProjectID: 'Project-05'
-    },
+		ProjectTechnologies: [typescript, react, git, github],
+		ProjectLiveLink: 'https://github.com/THEmmanuel/typescript-react-starter',
+		ProjectID: 'Project-01'
+	},
 
+	{
+		ProjectImage: send,
+		ProjectName: 'flink.ng',
+		ProjectColor: '#3D503A',
+		ProjectDescription: `Send money with a link. (Work in Progress).`,
 
-    {
-        ProjectImage: send,
-        ProjectName: 'flink.ng',
-        ProjectColor: '#3D503A',
-        ProjectDescription: `Send money with a link. (Work in Progress).`,
+		ProjectTechnologies: [typescript, react, node, git],
+		ProjectID: 'Project-02'
+	},
 
-        ProjectTechnologies: [typescript, react, node, git],
-        ProjectID: 'Project-02'
-    },
-
-    {
-        ProjectImage: art,
-        ProjectName: 'Nubiamania(demo)',
-        ProjectColor: '#CC9C7C',
-        ProjectDescription: 'Online trade fair site for independent African creatives.',
-
-        ProjectTechnologies: [css, javascript, react, firebase, git],
-
-        ProjectLiveLink: 'https://nubiamania.herokuapp.com/',
-        ProjectID: 'Project-03'
-    },
-
-    {
-        ProjectImage: website,
-        ProjectName: 'Colture Management',
-        ProjectColor: '#4F7375',
-        ProjectDescription: `Colture is a team of creators, shaping perception
+	{
+		ProjectImage: website,
+		ProjectName: 'Colture Management',
+		ProjectColor: '#4F7375',
+		ProjectDescription: `Colture is a team of creators, shaping perception
         through storytelling.`,
 
-        ProjectTechnologies: [css, html, wordpress, javascript, git],
+		ProjectTechnologies: [css, html, wordpress, javascript, git],
 
-        ProjectLiveLink: 'https://colturemgt.com/',
-        ProjectID: 'Project-04'
-    },
+		ProjectLiveLink: 'https://colturemgt.com/',
+		ProjectID: 'Project-04'
+	},
 
-    {
-        ProjectImage: website,
-        ProjectName: 'Quick Credit Frontend',
-        ProjectDescription: 'Loan app built during a bootcamp at Andela.',
-        ProjectColor: '#29507D',
-        ProjectTechnologies: [css, html, javascript, git],
-        ProjectID: 'Project-06',
-        ProjectLiveLink: 'https://themmanuel.github.io/Quick-Credit/UI',
-    },
+	{
+		ProjectImage: website,
+		ProjectName: 'Quick Credit Frontend',
+		ProjectDescription: 'Loan app built during a bootcamp at Andela.',
+		ProjectColor: '#29507D',
+		ProjectTechnologies: [css, html, javascript, git],
+		ProjectID: 'Project-06',
+		ProjectLiveLink: 'https://themmanuel.github.io/Quick-Credit/UI',
+	},
 
-    {
-        ProjectImage: threeD,
-        ProjectName: 'Pale Blue Dot',
-        ProjectColor: '#074F32',
-        ProjectDescription: 'A 3D render of the Earth, practice with threeJS.',
+	{
+		ProjectImage: threeD,
+		ProjectName: 'Pale Blue Dot',
+		ProjectColor: '#074F32',
+		ProjectDescription: 'A 3D render of the Earth, practice with threeJS.',
 
-        ProjectTechnologies: [html, css],
+		ProjectTechnologies: [html, css, javascript, react, git],
 
-        ProjectLiveLink: 'https://pale-blue.netlify.app/',
-        ProjectID: 'Project-07'
-    },
+		ProjectLiveLink: 'https://pale-blue.netlify.app/',
+		ProjectID: 'Project-07'
+	},
 
-    {
-        ProjectImage: music,
-        ProjectName: 'Moosic',
-        ProjectColor: '#D16B92',
-        ProjectDescription: 'Music player for Windows. Built with C# and Winforms.',
+	{
+		ProjectImage: music,
+		ProjectName: 'Moosic',
+		ProjectColor: '#D16B92',
+		ProjectDescription: 'Music player for Windows. Built with C# and Winforms.',
 
-        ProjectTechnologies: [csharp, git],
+		ProjectTechnologies: [csharp, git],
 
-        ProjectLiveLink: 'https://github.com/THEmmanuel/moosic',
-        ProjectID: 'Project-08'
-    }
+		ProjectLiveLink: 'https://github.com/THEmmanuel/moosic',
+		ProjectID: 'Project-08'
+	}
 
 ]
 
