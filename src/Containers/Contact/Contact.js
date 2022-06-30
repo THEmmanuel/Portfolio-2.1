@@ -17,20 +17,28 @@ const Contact = (props) => {
                 </div>
 
                 <div className={style.ContactButtons}>
-                    <a href="mailto:emmayodayo@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <a href="mailto:work@leunamme.dev" target="_blank" rel="noopener noreferrer">
                         <ContactButton ButtonIcon='https://img.icons8.com/ios-filled/25/C1C1C1/mail.png' />
                     </a>
 
-                    <a href="https://www.linkedin.com/in/lunartik42/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/emmanuxl/" target="_blank" rel="noopener noreferrer">
                         <ContactButton ButtonIcon='https://img.icons8.com/ios-filled/25/C1C1C1/linkedin.png' />
                     </a>
 
-                    <a href="https://twitter.com/Lunar__Tik" target="_blank" rel="noopener noreferrer">
+                    <a href="https://twitter.com/ayxdele" target="_blank" rel="noopener noreferrer">
                         <ContactButton ButtonIcon='https://img.icons8.com/ios-filled/25/C1C1C1/twitter.png' />
                     </a>
 
                     <a href="https://www.instagram.com/th3mmanuel.exe/" target="_blank" rel="noopener noreferrer">
                         <ContactButton ButtonIcon='https://img.icons8.com/ios-filled/25/C1C1C1/instagram.png' />
+                    </a>
+
+					<a href="https://www.github.com/themmanuel" target="_blank" rel="noopener noreferrer">
+                        <ContactButton ButtonIcon='https://img.icons8.com/ios-filled/25/C1C1C1/github.png' />
+                    </a>
+
+					<a href="https://www.dribbble.com/th3mmanuel/" target="_blank" rel="noopener noreferrer">
+                        <ContactButton ButtonIcon='https://img.icons8.com/ios-filled/25/C1C1C1/dribbble.png' />
                     </a>
                 </div>
 
