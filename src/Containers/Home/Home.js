@@ -17,12 +17,9 @@ const Home = (props) => {
 						</article>
 
 						<article className={style.ProfessionalSummary}>
-							Frontend-focused software engineer with half a decade of experience.
-							Passionate about creating clean, accessible and performant User
-							Interfaces. Open Source contributions include Meta (React) and Shard
-							Labs. Interested in Blockchain and emerging web technologies.
-							Educational background in Quantity Surveying and Construction Cost
-							Management.
+							Frontend-focused software engineer with half a decade of experience. Passionate about creating clean, accessible and performant User Interfaces. Open Source contributions include Facebook (React) and Shard Labs. Interested in Blockchain and emerging web technologies. Educational background in Quantity Surveying and Construction Cost Management.
+							<p />
+							Received multiple certifications from Google, Udacity, Buildspace, Andela, Pluralsight and Testdome.
 							<p />
 							In my free time, I'm a prolific reader and an avid gamer with a wide array of interests.
 						</article>
