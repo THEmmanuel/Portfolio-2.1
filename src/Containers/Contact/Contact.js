@@ -18,7 +18,7 @@ const Contact = (props) => {
 				</div>
 
 				<div className={style.ContactButtons}>
-					<a href="mailto:work@leunamme.dev" target="_blank" rel="noopener noreferrer">
+					<a href="mailto:emmayodayo@gmail.com" target="_blank" rel="noopener noreferrer">
 						<ContactButton ButtonIcon='https://img.icons8.com/ios-filled/25/C1C1C1/mail.png' />
 					</a>
 
