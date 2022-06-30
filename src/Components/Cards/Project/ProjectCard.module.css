@@ -29,6 +29,7 @@
 .ProjectContainer {
     display: flex;
     flex-direction: row;
+	padding: 0 15px;
 }
 
 .ImageContainer {
