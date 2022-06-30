@@ -5,10 +5,17 @@ import send from '../../src/Assets/icons/send.png';
 import threeD from '../../src/Assets/icons/3d.png';
 import art from '../../src/Assets/icons/art.png';
 import music from '../../src/Assets/icons/music.png';
+import blockchain from '../../src/Assets/icons/blockchain.png';
+import car from '../../src/Assets/icons/car.png';
 //ethereum for blockchain and web3 stuff
 
 
-//solidity, hardhat, node, express, ethereum, mongodb
+//solidity, hardhat, node, express, ethereum, mongodb, aws
+import aws from '../../src/Assets/icons/aws.png'
+import solidity from '../../src/Assets/icons/solidity.png'
+import mongo from '../../src/Assets/icons/mongo.png'
+import sass from '../../src/Assets/icons/sass.png'
+import ethereum from '../../src/Assets/icons/ethereum.png'
 import csharp from '../../src/Assets/icons/csharp.png'
 import css from '../../src/Assets/icons/css.png'
 import firebase from '../../src/Assets/icons/firebase.png'
@@ -25,13 +32,13 @@ import reactProject from '../../src/Assets/icons/react-project.png'
 import wordpress from '../../src/Assets/icons/wordpress.png'
 
 const ProjectList = [{
-		ProjectImage: reactProject,
+		ProjectImage: blockchain,
 		ProjectName: 'Hydra DAO DeFi',
 		ProjectColor: '#851344',
 		ProjectDescription: `Joined Hydra DAO to build a crypto native reserve currency with a rising floor
 		price and a stable market price during the 2022 ETHGlobal Hackmoney Hackathon.`,
 
-		ProjectTechnologies: [typescript, react, git, github, solidity, ethereum, hardhat],
+		ProjectTechnologies: [typescript, react, git, github, solidity, ethereum],
 		ProjectLiveLink: 'https://showcase.ethglobal.com/hackmoney2022/hydra-dao-1cccw',
 		ProjectID: 'Project-01'
 	},
@@ -49,7 +56,7 @@ const ProjectList = [{
 	},
 
 	{
-		ProjectImage: reactProject,
+		ProjectImage: blockchain,
 		ProjectName: 'Buildspace NFT game',
 		ProjectColor: '#073F45',
 		ProjectDescription: `Turn-based NFT browser game with dApp that allows users to play as Darth Vader, Hulk and Goku against Godzilla and mint their NFTs to the Ethereum 
@@ -61,7 +68,7 @@ const ProjectList = [{
 	},
 
 	{
-		ProjectImage: reactProject,
+		ProjectImage: blockchain,
 		ProjectName: 'Buildspace NFT dApp',
 		ProjectColor: '#14962E',
 		ProjectDescription: ` A dApp that allows users to connect their wallets and programmatically generate NFTs on-chain to the Ethereum 
@@ -84,7 +91,7 @@ const ProjectList = [{
 	},
 
 	{
-		ProjectImage: reactProject,
+		ProjectImage: car,
 		ProjectName: 'Self Driving Car',
 		ProjectColor: '#1B1482',
 		ProjectDescription: `Car with self driving AI with neural network built from scratch with no libraries from Radu Mariescu Istodor's advanced javascript course`,

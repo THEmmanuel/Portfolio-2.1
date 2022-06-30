@@ -2,22 +2,38 @@ import React, { useState } from 'react'
 import style from './NavBar.module.css'
 
 const NavBar = (props) => {
-    const [navState, setNavState] = useState(false)
-
-    const navToggleHandler = () => {
-        setNavState(!navState)
-    }
-
     return (
         <nav className={style.NavBar}>
-            <div className = {style.NavContent}>
-                <div className={style.NavLogo}>
-                    
+            <div className={style.NavItem}>
+                <span>01</span>
+                <div className={style.LineContainer}>
+                    <div className={style.Line}></div>
                 </div>
+                <div>Projects</div>
+            </div>
 
-                <div className={style.NavButton} onClick = {navToggleHandler}>
-                    
+            <div className={style.NavItem}>
+                <span>02</span>
+                <div className={style.LineContainer}>
+                    <div className={style.Line}></div>
                 </div>
+                <div>Experience</div>
+            </div>
+
+            <div className={style.NavItem}>
+                <span>03</span>
+                <div className={style.LineContainer}>
+                    <div className={style.Line}></div>
+                </div>
+                <div>Contact</div>
+            </div>
+
+            <div className={style.NavItem}>
+                <span>04</span>
+                <div className={style.LineContainer}>
+                    <div className={style.Line}></div>
+                </div>
+                <div>Resume</div>
             </div>
         </nav>
     )

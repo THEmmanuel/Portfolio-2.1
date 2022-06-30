@@ -22,3 +22,35 @@
 .NavButton {
     
 }
+
+/* .NavBar {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 5px;
+    font-size: 1.2em;
+    padding-left: 20px;
+}
+
+.Line{
+    height: 1px;
+    width: 35px;
+    background-color: darkgrey;
+    margin: auto 20px 5px 20px;
+    transition: all .2s ease-in-out;
+    align-items: center;
+}
+
+.NavItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transform: scale(1.1);
+}
+
+.Line:hover {
+    width: 50px;
+}
+
+.NavBar span {
+    width: 25px;
+} */
