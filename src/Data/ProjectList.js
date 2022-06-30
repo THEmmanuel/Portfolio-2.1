@@ -30,7 +30,7 @@ const ProjectList = [
 		price and a stable market price during the 2022 ETHGlobal Hackmoney Hackathon.`,
 
         ProjectTechnologies: [typescript, react, git, github],
-        ProjectLiveLink: 'https://github.com/THEmmanuel/typescript-react-starter',
+        ProjectLiveLink: 'https://showcase.ethglobal.com/hackmoney2022/hydra-dao-1cccw',
         ProjectID: 'Project-01'
     },
 
@@ -42,7 +42,7 @@ const ProjectList = [
 		blockchain as they play`,
 
         ProjectTechnologies: [typescript, react, git, github],
-        ProjectLiveLink: 'https://github.com/THEmmanuel/typescript-react-starter',
+        ProjectLiveLink: 'https://comfy-taffy-de7be5.netlify.app/',
         ProjectID: 'Project-01'
     },
 
@@ -54,7 +54,7 @@ const ProjectList = [
 		blockchain.`,
 
         ProjectTechnologies: [typescript, react, git, github],
-        ProjectLiveLink: 'https://github.com/THEmmanuel/typescript-react-starter',
+        ProjectLiveLink: 'https://ecstatic-einstein-064be3.netlify.app/',
         ProjectID: 'Project-01'
     },
 
@@ -104,13 +104,13 @@ const ProjectList = [
 
     {
         ProjectImage: art,
-        ProjectName: 'Nubiamania',
+        ProjectName: 'Nubiamania(demo)',
         ProjectColor: '#CC9C7C',
         ProjectDescription: 'Online trade fair site for independent African creatives.',
 
         ProjectTechnologies: [css, javascript, react, firebase, git],
 
-        ProjectLiveLink: 'https://nubiamania.com/',
+        ProjectLiveLink: 'https://nubiamania.herokuapp.com/',
         ProjectID: 'Project-03'
     },
 
