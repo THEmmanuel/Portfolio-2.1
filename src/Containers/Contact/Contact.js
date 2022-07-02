@@ -22,9 +22,9 @@ const Contact = (props) => {
 						<ContactButton ButtonIcon='https://img.icons8.com/ios-filled/25/C1C1C1/mail.png' />
 					</a>
 
-					<a href="https://www.linkedin.com/in/emmanuxl/" target="_blank" rel="noopener noreferrer">
+					{/* <a href="https://www.linkedin.com/in/emmanuxl/" target="_blank" rel="noopener noreferrer">
 						<ContactButton ButtonIcon='https://img.icons8.com/ios-filled/25/C1C1C1/linkedin.png' />
-					</a>
+					</a> */}
 
 					<a href="https://twitter.com/ayxdele" target="_blank" rel="noopener noreferrer">
 						<ContactButton ButtonIcon='https://img.icons8.com/ios-filled/25/C1C1C1/twitter.png' />
@@ -43,11 +43,11 @@ const Contact = (props) => {
 					</a>
 				</div>
 
-				<div className={style.ButtonContainer}>
+				{/* <div className={style.ButtonContainer}>
 					<a href="https://drive.google.com/file/d/1e2mG5F8i8B8bAZU9YjpkcYOG4qbKz1OC/view" target="_blank" rel="noopener noreferrer">
 						<HomePrimaryCTA text='Resume' />
 					</a>
-				</div>
+				</div> */}
 
 			</div>
 		</section>
