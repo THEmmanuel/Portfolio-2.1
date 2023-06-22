@@ -1,0 +1,11 @@
+.BrandsWrapper {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	background-color: #151515;
+	border: none;
+}
+
+.BrandsPage {
+	border: none;
+}
