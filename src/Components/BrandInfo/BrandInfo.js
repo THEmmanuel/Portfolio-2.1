@@ -3,9 +3,9 @@ import style from './BrandInfo.module.css';
 
 const BrandInfo = (props) => {
 	return (
-		<div>
-			<span>Brand Image</span>
-			<span>Brand name</span>
+		<div className={style.BrandInfoWrapper}>
+			<span className={style.BrandImage}>Brand Image</span>
+			<span className={style.BrandName}>Brand name</span>
 		</div>
 	)
 }

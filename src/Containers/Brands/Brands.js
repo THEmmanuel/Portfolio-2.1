@@ -1,9 +1,10 @@
 import React from 'react';
+import BrandInfo from '../../Components/BrandInfo/BrandInfo';
 import style from './Brands.module.css';
 
 const Brands = () => {
 	return (<div>
-		Brands
+		<BrandInfo/>
 	</div>)
 }
 

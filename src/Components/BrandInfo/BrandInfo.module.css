@@ -1,0 +1,12 @@
+.BrandInfoWrapper{
+	display: flex;
+	flex-direction: column;
+	max-height: 50px;
+	max-width: 120px;
+	background: #151515;;
+	gap: 10px;
+}
+
+.BrandName{
+	color: rgba(255, 255, 255, 0.32);
+}
