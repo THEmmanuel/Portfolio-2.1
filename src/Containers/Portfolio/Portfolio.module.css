@@ -1,18 +1,19 @@
 .Portfolio {
     display: flex;
+	margin-top: 180px;
     flex-direction: column;
     background-color: #151515;
     background-image: url(https://ik.imagekit.io/t2vnkmzt25/Asset_11-nobg_3_Ct-pPak.svg?updatedAt=1640699906835);
-    background-position: right 20% bottom 10px;
+    background-position: right 20% bottom 220px;
     background-size: 30%;
     background-repeat: no-repeat;
     padding-bottom: 250px;
 }
 
 .SectionTitle {
-    color: #717171;
+    color: #FFF;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 1.1em;
     text-align: center;
     padding: 25px;
     margin: auto;

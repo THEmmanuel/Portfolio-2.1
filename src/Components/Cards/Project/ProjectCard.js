@@ -11,48 +11,49 @@ import node from '../../../Assets/icons/node.png'
 
 const ProjectCard = props => {
 
-    const ImageContainerStyle = {
-        backgroundColor: props.ProjectColor
-    }
+	const ImageContainerStyle = {
+		backgroundColor: props.ProjectColor
+	}
 
-    return (
-        <div className={style.ProjectCardContainer}>
-            <Tilt
-                perspective={980}
-                transitionSpeed={100}
-                gyroscope = {true}
-                glareEnable = {true}
-                glareColor = {props.ProjectColor}
-            >
+	return (
+		<div className={style.ProjectCardContainer}>
+			<Tilt
+				perspective={9800}
+				transitionSpeed={10000}
+				gyroscope={true}
+				glareEnable={true}
+				glareColor={props.ProjectColor}
+			>
 
-                <div className={style.ProjectCard}>
-                    <div className={style.ProjectContainer}>
-                        <div className={style.ImageContainer}>
-                            <div className={style.IconContainer} style = {ImageContainerStyle}>
-                                <img src={props.ProjectImage} alt="" className={style.ProjectImage} />
-                            </div>
-                        </div>
+				<div className={style.ProjectCard}>
+					<div className={style.ProjectContainer}>
+						<div className={style.ImageContainer}>
+							<div className={style.IconContainer}
+								style={ImageContainerStyle}>
+								<img src={props.ProjectImage} alt="" className={style.ProjectImage} />
+							</div>
+						</div>
 
-                        <div className = {style.ProjectContent}>
-                            <span className={style.ProjectTitle}>
-                                {props.ProjectName}
-                            </span>
+						<div className={style.ProjectContent}>
+							<span className={style.ProjectTitle}>
+								{props.ProjectName}
+							</span>
 
-                            <span className={style.ProjectDescription}>
-                                {props.ProjectDescription}
-                            </span>
+							<span className={style.ProjectDescription}>
+								{props.ProjectDescription}
+							</span>
 
-                            <div className={style.StackIcons}>
-                                {props.ProjectTechnologies.map((project) =>
-                                    <img className={style.StackIcon} src={project} alt="" />)
-                                }
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </Tilt>
-        </div>
-    )
+							<div className={style.StackIcons}>
+								{props.ProjectTechnologies.map((project) =>
+									<img className={style.StackIcon} src={project} alt="" />)
+								}
+							</div>
+						</div>
+					</div>
+				</div>
+			</Tilt>
+		</div>
+	)
 };
 
 export default ProjectCard;
