@@ -1,6 +1,7 @@
 .MediaCard {
 	background-color: #202022;
 	max-width: 500px;
+	border-radius: 5px;
 }
 
 .MediaCardWrapper{
@@ -17,10 +18,12 @@
 
 .MediaPublisher {
 	color: rgba(255, 255, 255, 0.50);
+	font-size: 0.8em;
 	font-weight: 300;
 }
 
 .MediaDate {
 	color: rgba(255, 255, 255, 0.30);
+	font-size: 0.75em;
 	font-weight: 300;
 }
