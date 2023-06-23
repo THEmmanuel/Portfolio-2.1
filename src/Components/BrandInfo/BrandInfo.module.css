@@ -4,6 +4,9 @@
 	background: #151515;
 	gap: 10px;
 	margin: auto;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
 }
 
 .BrandInfo {
@@ -15,17 +18,16 @@
 	max-width: 120px;
 }
 
-.BrandsPage{
-}
+.BrandsPage {}
 
-.Brands{
+.Brands {
 	display: flex;
 	margin: auto;
 	justify-content: center;
 	max-width: 1000px;
 }
 
-.BrandContainer{
+.BrandContainer {
 	margin: auto;
 	max-width: 1000px;
 }

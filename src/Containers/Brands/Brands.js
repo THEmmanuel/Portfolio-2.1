@@ -10,19 +10,20 @@ const Brands = () => {
 		<div className={style.BrandsPage}>
 			<div className={style.Brands}>
 				<div className={style.BrandContainer}>
-					<div>
-						<span className={style.BrandsHeading}>Excited to have contributed to these projects!</span>
-						<span className={style.BrandsHeadingText}>And collaborated with incredible people around the world!</span>
+					<div className={style.BrandsHeadingWrapper}>
+						<div className={style.BrandContainer}>
+							<span className={style.BrandsHeading}>Excited to have contributed to these projects!</span>
+							<span className={style.BrandsHeadingText}>And collaborated with incredible people around the world!</span>
+						</div>
 					</div>
 
 					<div className={style.BrandsWrapper}>
-
 						{
 							brandsList.map(brand =>
 								<BrandInfo
 									brandImage={brand.brandLogo}
 									brandInfoText={brand.brandName}
-									brandLocation ={brand.brandLocation}
+									brandLocation={brand.brandLocation}
 								/>)
 						}
 					</div>

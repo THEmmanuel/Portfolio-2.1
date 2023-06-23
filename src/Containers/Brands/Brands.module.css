@@ -1,8 +1,26 @@
 .BrandsWrapper {
-	display: flex;
+	display: grid;
 	flex-direction: row;
 	gap: 20px;
 	border: none;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Brands {
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.BrandsHeadingWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: fit-content;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 60px;
 }
 
 .BrandsPage {
@@ -10,15 +28,15 @@
 	background-color: #151515;
 }
 
-.BrandContainer{
+.BrandContainer {
 	display: flex;
 	flex-direction: column;
 }
 
-.BrandsHeading{
+.BrandsHeading {
 	color: #FFF;
 }
 
-.BrandsHeadingText{
+.BrandsHeadingText {
 	color: #737373;
 }
