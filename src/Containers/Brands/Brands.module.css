@@ -8,6 +8,7 @@
 
 .Brands {
 	max-width: 1000px;
+	gap: 100px;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
