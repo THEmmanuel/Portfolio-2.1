@@ -14,6 +14,9 @@ import msstartups from '../Assets/brands/msstartups.svg';
 import startupgrind from '../Assets/brands/startupgrind.svg';
 import ethglobal from '../Assets/brands/ethglobal.svg';
 
+import react from '../Assets/brands/react.svg';
+import shard from '../Assets/brands/shard.svg';
+
 
 export const brandsList = [{
 		brandName: 'Meta Moon Gaming',
@@ -65,33 +68,9 @@ export const brandsList = [{
 ]
 
 
-export const ProgramList = [{
-		brandName: 'Buildspace Nights and Weekends s3 finalist. Top 250/7500 projects.',
-		brandLocation: 'Worldwide',
-		brandLogo: buildspace
-	},
-
-	{
-		brandName: 'Member. GDSC Obafemi Awolowo University',
-		brandLocation: 'Obafemi Awolowo University, Ile-Ife',
-		brandLogo: gdsc
-	},
-
-	{
-		brandName: 'Cycle 44 bootcamp finalist. Top 50/5000+. Andela Leaning Community member',
-		brandLocation: 'Lagos, Nigeria',
-		brandLogo: andela
-	},
-
-	{
+export const programList = [{
 		brandName: 'Microsoft for startup founders hub member',
 		brandLocation: 'Worldwide',
-		brandLogo: msstartups
-	},
-
-	{
-		brandName: 'Member. Startup grind Ife',
-		brandLocation: 'Ile-Ife, Nigeria',
 		brandLogo: msstartups
 	},
 
@@ -101,5 +80,38 @@ export const ProgramList = [{
 		brandLogo: ethglobal
 	},
 
+	{
+		brandName: 'Buildspace Nights and Weekends s3 finalist. Top 250/7500 projects.',
+		brandLocation: 'Worldwide',
+		brandLogo: buildspace
+	},
 
+	{
+		brandName: 'Cycle 44 bootcamp finalist. Top 50/5000+. Andela Leaning Community member',
+		brandLocation: 'Lagos, Nigeria',
+		brandLogo: andela
+	},
+
+	{
+		brandName: 'Member. GDSC Obafemi Awolowo University',
+		brandLocation: 'Obafemi Awolowo University, Ile-Ife',
+		brandLogo: gdsc
+	},
+
+	{
+		brandName: 'Member. Startup grind Ife',
+		brandLocation: 'Ile-Ife, Nigeria',
+		brandLogo: startupgrind
+	},
+]
+
+export const openSourceList = [{
+		brandName: 'Facebook - React',
+		brandLogo: react
+	},
+
+	{
+		brandName: 'SpaceShard - starknet-devnet',
+		brandLogo: shard
+	},
 ]
