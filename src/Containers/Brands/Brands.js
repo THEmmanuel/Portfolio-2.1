@@ -9,14 +9,33 @@ import dottyland from '../../Assets/brands/dottyland.svg';
 const Brands = () => {
 	return (
 		<div className={style.BrandsPage}>
-			<div className={style.BrandsWrapper}>
-				<BrandInfo
-					brandImage={metamoonLogo}
-				/>
+			<div className={style.BrandContainer}>
+				<div>
+					<span className={style.BrandsHeading}>HDHDHD</span>
+					<span className={style.BrandsHeadingText}>dhjhdhdh</span>
+				</div>
 
-				<BrandInfo
-					brandImage={dottyland}
-				/>
+				<div className={style.BrandsWrapper}>
+					<BrandInfo
+						brandImage={metamoonLogo}
+					/>
+
+					<BrandInfo
+						brandImage={dottyland}
+					/>
+
+					<BrandInfo
+						brandImage={dottyland}
+					/>
+
+					<BrandInfo
+						brandImage={dottyland}
+					/>
+
+					<BrandInfo
+						brandImage={metamoonLogo}
+					/>
+				</div>
 			</div>
 		</div >)
 }

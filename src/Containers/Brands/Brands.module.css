@@ -2,10 +2,23 @@
 	display: flex;
 	flex-direction: row;
 	gap: 20px;
-	background-color: #151515;
 	border: none;
 }
 
 .BrandsPage {
 	border: none;
+	background-color: #151515;
+}
+
+.BrandContainer{
+	display: flex;
+	flex-direction: column;
+}
+
+.BrandsHeading{
+	color: #FFF;
+}
+
+.BrandsHeadingText{
+	color: #737373;
 }
