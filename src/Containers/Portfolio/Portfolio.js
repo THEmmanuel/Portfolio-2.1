@@ -7,9 +7,14 @@ import HomePrimaryCTA from '../../Components/Buttons/HomePrimaryCTA/HomePrimaryC
 const Portfolio = () => {
 	return (
 		<section className={style.Portfolio} id='portfolio'>
-			<h2 className={style.SectionTitle}>
-				Selected Projects.
+			<h2 className='SectionTitle'>
+				Selected Projects
 			</h2>
+
+			<div className={style.PortfolioSwitch}>
+				<span>projects 💼</span>
+				<span>the lab. 🧪</span>
+			</div>
 
 			<div className={style.ProjectCardContianer}>
 				{ProjectList.map((project) =>

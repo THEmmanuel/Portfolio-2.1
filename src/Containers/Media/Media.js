@@ -6,18 +6,21 @@ import { MediaList } from '../../Data/MediaList';
 const Media = () => {
 	return (
 		<div className={style.Media}>
-			Media
-		<div className={style.MediaCards}>
-			{
-				MediaList.map(media =>
-					<MediaCard
-						MediaTitle={media.mediaName}
-						MediaPublisher={media.mediaPublisher}
-						MediaDate={media.mediaDate}
-						MediaType={media.mediaType}
-					/>)
-			}
-		</div>
+			<h2 className='SectionTitle'>
+				Media
+			</h2>
+
+			<div className={style.MediaCards}>
+				{
+					MediaList.map(media =>
+						<MediaCard
+							MediaTitle={media.mediaName}
+							MediaPublisher={media.mediaPublisher}
+							MediaDate={media.mediaDate}
+							MediaType={media.mediaType}
+						/>)
+				}
+			</div>
 		</div>
 	)
 }

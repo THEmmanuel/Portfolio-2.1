@@ -19,6 +19,13 @@
     margin: auto;
 }
 
+.PortfolioSwitch{
+	color: #FFF;
+	display: flex;
+	gap: 25px;
+	margin: auto;
+}
+
 .ProjectCardContianer{
     display: grid;
     grid-template-columns: 1fr 1fr;

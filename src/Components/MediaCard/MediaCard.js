@@ -7,7 +7,7 @@ const MediaCard = (props) => {
 			<div className={style.MediaCardWrapper}>
 				<span className={style.MediaTitle}>{props.MediaTitle}</span>
 				<span className={style.MediaPublisher}>{props.MediaPublisher}</span>
-				<span className={style.MediaDate}>{props.MediaDate} | {props.MediaType}</span>
+				<span className={style.MediaDate}>{props.MediaDate} · {props.MediaType}</span>
 			</div>
 		</div>
 	)
