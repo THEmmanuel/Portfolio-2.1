@@ -1,3 +1,8 @@
 a{
   text-decoration: none;
 }
+
+.App-Content{
+	max-width: 1440px;
+	margin: auto;
+}
