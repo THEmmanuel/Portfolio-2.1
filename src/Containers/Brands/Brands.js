@@ -2,8 +2,7 @@ import React from 'react';
 import BrandInfo from '../../Components/BrandInfo/BrandInfo';
 import style from './Brands.module.css';
 
-import metamoonLogo from '../../Assets/brands/metamoon.svg';
-import dottyland from '../../Assets/brands/dottyland.svg';
+import { brandsList } from '../../Data/BrandsList';
 
 
 const Brands = () => {
@@ -17,30 +16,15 @@ const Brands = () => {
 					</div>
 
 					<div className={style.BrandsWrapper}>
-						<BrandInfo
-							brandImage={metamoonLogo}
-							brandInfoText='Test'
-						/>
 
-						<BrandInfo
-							brandImage={dottyland}
-						/>
-
-						<BrandInfo
-							brandImage={dottyland}
-						/>
-
-						<BrandInfo
-							brandImage={dottyland}
-						/>
-
-						<BrandInfo
-							brandImage={metamoonLogo}
-						/>
-
-						<BrandInfo
-							brandImage={metamoonLogo}
-						/>
+						{
+							brandsList.map(brand =>
+								<BrandInfo
+									brandImage={brand.brandLogo}
+									brandInfoText={brand.brandName}
+									brandLocation ={brand.brandLocation}
+								/>)
+						}
 					</div>
 				</div>
 			</div>

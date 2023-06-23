@@ -6,6 +6,7 @@ const BrandInfo = (props) => {
 		<div className={style.BrandInfoWrapper}>
 			<img src={props.brandImage} alt="" className={style.BrandImage}/>
 			<span className={style.BrandInfo}>{props.brandInfoText}</span>
+			<span className={style.BrandInfo}>{props.brandLocation}</span>
 		</div>
 	)
 }
