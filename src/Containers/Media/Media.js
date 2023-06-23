@@ -5,8 +5,9 @@ import { MediaList } from '../../Data/MediaList';
 
 const Media = () => {
 	return (
-		<div className={style.MediaCards}>
+		<div className={style.Media}>
 			Media
+		<div className={style.MediaCards}>
 			{
 				MediaList.map(media =>
 					<MediaCard
@@ -16,6 +17,7 @@ const Media = () => {
 						MediaType={media.mediaType}
 					/>)
 			}
+		</div>
 		</div>
 	)
 }
