@@ -15,6 +15,31 @@
     width: 50%;
 }
 
+.ContactButton{
+	background-color: #202022;
+	border-radius: 5px;
+	border: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px;
+	color: #FFF;
+}
+
+.MainContactButtons{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.SocialButtons{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
 @media(max-width:720px){
     .Contact{
         background-size: 50%;

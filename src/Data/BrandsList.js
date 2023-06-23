@@ -19,6 +19,7 @@ import osca from '../Assets/brands/osca.svg';
 
 import react from '../Assets/brands/react.svg';
 import shard from '../Assets/brands/shard.svg';
+import github from '../Assets/brands/github.svg'
 
 
 export const brandsList = [{
@@ -122,5 +123,10 @@ export const openSourceList = [{
 	{
 		brandName: 'SpaceShard - starknet-devnet',
 		brandLogo: shard
+	},
+
+	{
+		brandName: 'THEmmanuel on GitHub',
+		brandLogo: github
 	},
 ]
