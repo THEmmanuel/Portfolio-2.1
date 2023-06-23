@@ -1,4 +1,26 @@
-.MediaCard{
-	background-color: cornsilk;
+.MediaCard {
+	background-color: #202022;
 	max-width: 500px;
+}
+
+.MediaCardWrapper{
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+}
+
+.MediaTitle {
+	color: #FFF;
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+.MediaPublisher {
+	color: rgba(255, 255, 255, 0.50);
+	font-weight: 300;
+}
+
+.MediaDate {
+	color: rgba(255, 255, 255, 0.30);
+	font-weight: 300;
 }
