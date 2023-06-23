@@ -51,7 +51,7 @@ const Brands = () => {
 				<div className={style.BrandContainer}>
 					<div className={style.BrandsHeadingWrapper}>
 						<div className={style.BrandContainer}>
-							<span className={style.BrandsHeading}>Open Source stuff</span>
+							<span className={style.BrandsHeading}>Open source contributions</span>
 						</div>
 					</div>
 

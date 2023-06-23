@@ -1,41 +1,10 @@
 .Contact{
     /* height: 100vh; */
-    background-color: #121212;
+    /* background-color: #121212; */
     background-image: url(https://ik.imagekit.io/t2vnkmzt25/Asset_10-nobg_vrvumxkP3E.svg?updatedAt=1640699905337);
     background-repeat: no-repeat;
     background-position: left 85% bottom 20px;
     background-size: 30%;
-}
-
-.ContactHeading{
-    font-size: 48px;
-}
-
-.SectionTitle{
-    color: #C1C1C1;
-    font-weight: 600;
-    font-size: 32px;
-    text-align: center;
-    padding: 25px;
-    margin: auto;
-}
-
-.ContactText{
-    text-align: center;
-    margin-bottom: 50px;
-    font-size: 20px;
-    color: #FFF;
-    opacity: 0.6; 
-}
-
-.ContactButtons{
-    display: flex;
-    flex-direction: row;
-    grid-gap: 30px;
-    margin: auto;
-    max-width: 600px;
-    align-items: center;
-    justify-content: center;
 }
 
 .ContactContent{
@@ -44,19 +13,6 @@
     padding-bottom: 350px;
     max-width: 500px;
     width: 50%;
-}
-
-.ContactAnimation{
-    width: 550px;
-    position: relative;
-    left: 65%;
-    bottom: 80px;
-}
-
-.ButtonContainer{
-	display: flex;
-	margin-top: 20px;
-	justify-content: center;
 }
 
 @media(max-width:720px){

@@ -7,7 +7,7 @@ const Media = () => {
 	return (
 		<div className={style.Media}>
 			<h2 className='SectionTitle'>
-				Media
+				Talks and Publications
 			</h2>
 
 			<div className={style.MediaCards}>

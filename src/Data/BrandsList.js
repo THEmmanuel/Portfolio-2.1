@@ -10,9 +10,12 @@ import seuntIcon from '../Assets/brands/seunt.svg'
 import buildspace from '../Assets/brands/buildspace.svg';
 import gdsc from '../Assets/brands/gdsc.svg';
 import andela from '../Assets/brands/andela.svg';
-import msstartups from '../Assets/brands/msstartups.svg';
+import microsoft from '../Assets/brands/microsoft.svg';
 import startupgrind from '../Assets/brands/startupgrind.svg';
 import ethglobal from '../Assets/brands/ethglobal.svg';
+import google from '../Assets/brands/google.svg';
+import osca from '../Assets/brands/osca.svg';
+
 
 import react from '../Assets/brands/react.svg';
 import shard from '../Assets/brands/shard.svg';
@@ -71,7 +74,7 @@ export const brandsList = [{
 export const programList = [{
 		brandName: 'Microsoft for startup founders hub member',
 		brandLocation: 'Worldwide',
-		brandLogo: msstartups
+		brandLogo: microsoft
 	},
 
 	{
@@ -95,13 +98,19 @@ export const programList = [{
 	{
 		brandName: 'Member. GDSC Obafemi Awolowo University',
 		brandLocation: 'Obafemi Awolowo University, Ile-Ife',
-		brandLogo: gdsc
+		brandLogo: google
 	},
 
 	{
 		brandName: 'Member. Startup grind Ife',
 		brandLocation: 'Ile-Ife, Nigeria',
 		brandLogo: startupgrind
+	},
+
+	{
+		brandName: 'Member. Open Source Community Africa',
+		brandLocation: 'Africa',
+		brandLogo: osca
 	},
 ]
 
