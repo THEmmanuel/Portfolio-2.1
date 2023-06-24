@@ -17,11 +17,16 @@ const iconColour = '#606060'
 const Contact = (props) => {
 	return (
 		<section className={style.Contact} id='contact'>
-			<h2 className='SectionTitle'>
-				Contact me
-			</h2>
+			<div className='HeadingWrapper'>
+				<div className='HeadingContainer'>
+					<span className='Heading'>Contact</span>
+					<span className='HeadingText'>Say hi, Let's rock! 🤘🏾</span>
+				</div>
+			</div>
+
+
 			<div className={style.ContactContent}>
-				<div>
+				<div className={style.ContactWrapper}>
 					<div className={style.MainContactButtons}>
 						<button className={style.ContactButton}>
 							<EnvelopeSimple
@@ -42,39 +47,43 @@ const Contact = (props) => {
 						</button>
 					</div>
 
-					<div className={style.SocialButtons}>
-						<button className={style.SocialButton}>
-							<LinkedinLogo
-								size={32}
-								weight="thin"
-								color={iconColour} />
-							LinkedIn
-						</button>
+					<div className={style.SocialButtonsWrapper}>
+						<span className='HeadingText'>Socials</span>
 
-						<button className={style.SocialButton}>
-							<GithubLogo
-								size={32}
-								weight="thin"
-								color={iconColour} />
-							GitHub
-						</button>
+						<div className={style.SocialButtons}>
+							<button className={style.SocialButton}>
+								<LinkedinLogo
+									size={32}
+									weight="thin"
+									color={iconColour} />
+								LinkedIn
+							</button>
 
-						<button className={style.SocialButton}>
-							<TwitterLogo
-								size={32}
-								weight="thin"
-								color={iconColour} />
-							Twitter
-						</button>
+							<button className={style.SocialButton}>
+								<GithubLogo
+									size={32}
+									weight="thin"
+									color={iconColour} />
+								GitHub
+							</button>
+
+							<button className={style.SocialButton}>
+								<TwitterLogo
+									size={32}
+									weight="thin"
+									color={iconColour} />
+								Twitter
+							</button>
 
 
-						<button className={style.SocialButton}>
-							<DribbbleLogo
-								size={32}
-								weight="thin"
-								color={iconColour} />
-							Dribbble
-						</button>
+							<button className={style.SocialButton}>
+								<DribbbleLogo
+									size={32}
+									weight="thin"
+									color={iconColour} />
+								Dribbble
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>

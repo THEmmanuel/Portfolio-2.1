@@ -1,21 +1,27 @@
-.Contact{
-    /* height: 100vh; */
-    /* background-color: #121212; */
-    background-image: url(https://ik.imagekit.io/t2vnkmzt25/Asset_10-nobg_vrvumxkP3E.svg?updatedAt=1640699905337);
-    background-repeat: no-repeat;
-    background-position: left 85% bottom 20px;
-    background-size: 30%;
+.Contact {
+	/* height: 100vh; */
+	/* background-color: #121212; */
+	background-image: url(https://ik.imagekit.io/t2vnkmzt25/Asset_10-nobg_vrvumxkP3E.svg?updatedAt=1640699905337);
+	background-repeat: no-repeat;
+	background-position: left 85% bottom 20px;
+	background-size: 30%;
 }
 
-.ContactContent{
-    padding: 40px;
-    margin: auto;
-    padding-bottom: 350px;
-    max-width: 500px;
-    width: 50%;
+.ContactContent {
+	padding: 40px;
+	margin: auto;
+	padding-bottom: 350px;
+	max-width: 500px;
+	width: 50%;
 }
 
-.ContactButton{
+.ContactWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+}
+
+.ContactButton {
 	background-color: #202022;
 	border-radius: 5px;
 	border: 0;
@@ -29,20 +35,20 @@
 	color: #D6D6D6;
 }
 
-.MainContactButtons{
+.MainContactButtons {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 }
 
-.SocialButtons{
+.SocialButtons {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	margin-top: 40px;
 	gap: 20px;
 }
 
-.SocialButton{
+.SocialButton {
 	background-color: #202022;
 	border: 0;
 	color: #CFCFCF;
@@ -53,44 +59,44 @@
 	border-radius: 8px;
 }
 
-@media(max-width:720px){
-    .Contact{
-        background-size: 50%;
-    }
+@media(max-width:720px) {
+	.Contact {
+		background-size: 50%;
+	}
 
-    .SectionTitle{
-        font-size: 20px;
-        padding-left: 20px;
-    }
+	.SectionTitle {
+		font-size: 20px;
+		padding-left: 20px;
+	}
 
-    .ContactText{
-        font-size: 18px;
-        width: 100%;
-    }
+	.ContactText {
+		font-size: 18px;
+		width: 100%;
+	}
 
-    .ContactContent{
-        width: 70%;
-        padding-bottom: 300px;
-    }
+	.ContactContent {
+		width: 70%;
+		padding-bottom: 300px;
+	}
 
-    .ContactButtons{
-        grid-gap: 20px;
-    }
+	.ContactButtons {
+		grid-gap: 20px;
+	}
 }
 
 
-@media(max-width:480px){
-    .Contact{
-        background-size: 80%;
-        background-position: left 40% bottom 5%;
-    }
+@media(max-width:480px) {
+	.Contact {
+		background-size: 80%;
+		background-position: left 40% bottom 5%;
+	}
 
-    .ContactText{
-        font-size: 14px;
-    }
+	.ContactText {
+		font-size: 14px;
+	}
 
-    .ContactButtons{
-        grid-gap: 10px;
-    }
+	.ContactButtons {
+		grid-gap: 10px;
+	}
 
 }

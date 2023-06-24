@@ -9,10 +9,10 @@ const Brands = () => {
 		<div className={style.BrandsPage}>
 			<div className={style.Brands}>
 				<div className={style.BrandContainer}>
-					<div className={style.BrandsHeadingWrapper}>
-						<div className={style.BrandContainer}>
-							<span className={style.BrandsHeading}>Excited to have contributed to these projects!</span>
-							<span className={style.BrandsHeadingText}>And collaborated with incredible people around the world!</span>
+					<div className='HeadingWrapper'>
+						<div className='HeadingContainer'>
+							<span className='Heading'>Excited to have contributed to these projects!</span>
+							<span className='HeadingText'>And collaborated with incredible people around the world!</span>
 						</div>
 					</div>
 

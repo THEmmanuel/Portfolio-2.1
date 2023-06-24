@@ -14,16 +14,6 @@
 	flex-direction: column;
 }
 
-.BrandsHeadingWrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: fit-content;
-	text-align: center;
-	margin: auto;
-	margin-bottom: 60px;
-}
-
 .BrandsPage {
 	border: none;
 	background-color: #151515;
@@ -38,6 +28,6 @@
 	color: #FFF;
 }
 
-.BrandsHeadingText {
-	color: #737373;
+.SocialButtonsWrapper{
+	justify-content: center;
 }

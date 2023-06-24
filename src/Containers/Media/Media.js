@@ -6,9 +6,12 @@ import { MediaList } from '../../Data/MediaList';
 const Media = () => {
 	return (
 		<div className={style.Media}>
-			<h2 className='SectionTitle'>
-				Talks and Publications
-			</h2>
+			<div className='HeadingWrapper'>
+				<div className='HeadingContainer'>
+					<span className='Heading'>Media</span>
+					<span className='HeadingText'>Talks, articles - general media stuff!</span>
+				</div>
+			</div>
 
 			<div className={style.MediaCards}>
 				{
@@ -21,7 +24,7 @@ const Media = () => {
 						/>)
 				}
 			</div>
-		</div>
+		</div >
 	)
 }
 

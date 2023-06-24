@@ -13,6 +13,30 @@ body {
 	margin: auto;
 }
 
+.HeadingText {
+	color: #737373;
+	text-align: center;
+}
+
+.HeadingWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: fit-content;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 60px;
+}
+
+.HeadingContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.Heading {
+	color: #FFF;
+}
+
 @media(max-width:720px) {
 	.SectionTitle {
 		font-size: 20px;
