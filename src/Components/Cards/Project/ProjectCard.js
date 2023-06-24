@@ -21,7 +21,7 @@ const ProjectCard = props => {
 			<div className={style.ProjectCard}>
 				<div className={style.ProjectContainer}>
 					<div className={style.ProjectContent}>
-						<span className={style.ProjectStack}>
+						<span className={style.ProjectCategory}>
 							{props.ProjectCategory}
 						</span>
 

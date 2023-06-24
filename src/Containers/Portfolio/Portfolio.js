@@ -11,11 +11,6 @@ const Portfolio = () => {
 				Selected Projects
 			</h2>
 
-			<div className={style.PortfolioSwitch}>
-				<span>projects 💼</span>
-				<span>the lab. 🧪</span>
-			</div>
-
 			<div className={style.ProjectCardContianer}>
 				{ProjectList.map((project) =>
 					<ProjectCard
