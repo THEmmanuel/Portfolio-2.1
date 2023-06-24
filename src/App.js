@@ -7,6 +7,7 @@ import Portfolio from './Containers/Portfolio/Portfolio';
 import Contact from './Containers/Contact/Contact';
 import Footer from './Containers/Footer/Footer';
 import Media from './Containers/Media/Media';
+import Achievements from './Containers/Achievements/Achievements'
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 				<Brands />
 				<Portfolio />
 				<Media />
+				<Achievements />				
 				<Contact />
 				<Footer />
 			</div>
