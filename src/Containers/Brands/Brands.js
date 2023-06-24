@@ -12,7 +12,7 @@ const Brands = () => {
 					<div className='HeadingWrapper'>
 						<div className='HeadingContainer'>
 							<span className='Heading'>Excited to have contributed to these projects!</span>
-							<span className='HeadingText'>And collaborated with incredible people around the world!</span>
+							<span className='HeadingText'>And collaborated with incredible people around the world! 🫱🏾‍🫲🏽</span>
 						</div>
 					</div>
 
@@ -36,7 +36,7 @@ const Brands = () => {
 				<div className={style.BrandContainer}>
 					<div className={style.BrandsHeadingWrapper}>
 						<div className={style.BrandContainer}>
-							<span className={style.BrandsHeading}>Grateful to be a part of these communiites</span>
+							<span className='HeadingText'>Grateful to be a part of these communiites 🙏🏾</span>
 						</div>
 					</div>
 
@@ -61,7 +61,9 @@ const Brands = () => {
 				<div className={style.BrandContainer}>
 					<div className={style.BrandsHeadingWrapper}>
 						<div className={style.BrandContainer}>
-							<span className={style.BrandsHeading}>Open source contributions</span>
+							<span className='HeadingText'>
+								Open source contributions 💻
+							</span>
 						</div>
 					</div>
 

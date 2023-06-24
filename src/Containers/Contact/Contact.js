@@ -28,61 +28,72 @@ const Contact = (props) => {
 			<div className={style.ContactContent}>
 				<div className={style.ContactWrapper}>
 					<div className={style.MainContactButtons}>
-						<button className={style.ContactButton}>
-							<EnvelopeSimple
-								size={32}
-								weight="thin"
-								color={iconColour}
-							/>
-							Send a mail!
-						</button>
+						<a href="mailto:emmayodayo@gmail.com">
+							<button className={style.ContactButton}>
+								<EnvelopeSimple
+									size={32}
+									weight="thin"
+									color={iconColour}
+								/>
+								Send a mail!
+							</button>
+						</a>
 
-						<button className={style.ContactButton}>
-							<DiscordLogo
-								size={32}
-								weight="thin"
-								color={iconColour}
-							/>
-							Let's chat on Discord!
-						</button>
+						<a href="https://discord.com/users/ayxdele">
+							<button className={style.ContactButton}>
+								<DiscordLogo
+									size={32}
+									weight="thin"
+									color={iconColour}
+								/>
+								Let's chat on Discord! @ayxdele
+							</button>
+						</a>
 					</div>
 
 					<div className={style.SocialButtonsWrapper}>
 						<span className='HeadingText'>Socials</span>
 
 						<div className={style.SocialButtons}>
-							<button className={style.SocialButton}>
-								<LinkedinLogo
-									size={32}
-									weight="thin"
-									color={iconColour} />
-								LinkedIn
-							</button>
+							<a href="https://www.linkedin.com/in/emmanuxl" target='blank'>
+								<button className={style.SocialButton}>
+									<LinkedinLogo
+										size={32}
+										weight="thin"
+										color={iconColour} />
+									LinkedIn
+								</button>
+							</a>
 
-							<button className={style.SocialButton}>
-								<GithubLogo
-									size={32}
-									weight="thin"
-									color={iconColour} />
-								GitHub
-							</button>
+							<a href="https://github.com/THEmmanuel" target='blank'>
+								<button className={style.SocialButton}>
+									<GithubLogo
+										size={32}
+										weight="thin"
+										color={iconColour} />
+									GitHub
+								</button>
+							</a>
 
-							<button className={style.SocialButton}>
-								<TwitterLogo
-									size={32}
-									weight="thin"
-									color={iconColour} />
-								Twitter
-							</button>
+							<a href="https://twitter.com/ayxdele" target='blank'>
+								<button className={style.SocialButton}>
+									<TwitterLogo
+										size={32}
+										weight="thin"
+										color={iconColour} />
+									Twitter
+								</button>
+							</a>
 
-
-							<button className={style.SocialButton}>
-								<DribbbleLogo
-									size={32}
-									weight="thin"
-									color={iconColour} />
-								Dribbble
-							</button>
+							<a href="https://dribbble.com/TH3mmanuel" target='blank'>
+								<button className={style.SocialButton}>
+									<DribbbleLogo
+										size={32}
+										weight="thin"
+										color={iconColour} />
+									Dribbble
+								</button>
+							</a>
 						</div>
 					</div>
 				</div>
