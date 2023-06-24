@@ -6,10 +6,9 @@ import pluralsight from '../Assets/brands/pluralsight.svg'
 import testdome from '../Assets/brands/testdome.svg'
 import udemy from '../Assets/brands/udemy.svg'
 
+import books from '../Assets/brands/books.svg'
+import calendar from '../Assets/brands/calendar.svg'
 
-import react from '../Assets/brands/react.svg';
-import shard from '../Assets/brands/shard.svg';
-import github from '../Assets/brands/github.svg'
 
 
 export const CertificationsList = [{
@@ -69,11 +68,11 @@ export const CertificationsList = [{
 export const AchievementsList = [
 	{
 		brandName: "150+ books read since 2020",
-		brandLogo: linkedin
+		brandLogo: books
 	},
 
 	{
-		brandName: "No missed deadline 365+ days",
-		brandLogo: linkedin
+		brandName: "No missed deadlines in 365+ days",
+		brandLogo: calendar
 	},
 ]

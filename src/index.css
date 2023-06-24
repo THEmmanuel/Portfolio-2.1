@@ -35,6 +35,7 @@ body {
 
 .Heading {
 	color: #FFF;
+	margin: auto;
 }
 
 @media(max-width:720px) {
