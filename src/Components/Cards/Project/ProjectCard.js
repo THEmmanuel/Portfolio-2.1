@@ -1,13 +1,14 @@
 import React from 'react';
 import style from './ProjectCard.module.css';
-import Tilt from 'react-parallax-tilt';
 
 //Icon imports
+import {
+	VideoCamera,
+	Eye,
+	GithubLogo,
+	Code
+} from "@phosphor-icons/react";
 
-
-import csharp from '../../../Assets/icons/csharp.png'
-import css from '../../../Assets/icons/css.png'
-import node from '../../../Assets/icons/node.png'
 
 const ProjectCard = props => {
 
@@ -20,8 +21,8 @@ const ProjectCard = props => {
 			<div className={style.ProjectCard}>
 				<div className={style.ProjectContainer}>
 					<div className={style.ProjectContent}>
-						<span>
-							Tech stack
+						<span className={style.ProjectStack}>
+							{props.ProjectCategory}
 						</span>
 
 						<span className={style.ProjectTitle}>
@@ -33,24 +34,24 @@ const ProjectCard = props => {
 						</span>
 
 						<div className={style.ProjectStackContainer}>
-							<div className={style.ProjectStackWrapper}>
-								<span>icon</span>
-								<span className={style.ProjectStack}>
-									view demo
+							<div className={style.ProjectActionWrapper}>
+								<Eye size={18} color="#b8b8b8" weight="thin" />
+								<span className={style.ProjectAction}>
+									View Live
 								</span>
 							</div>
 
-							<div className={style.ProjectStackWrapper}>
-								<span>icon</span>
-								<span className={style.ProjectStack}>
-									view demo
+							<div className={style.ProjectActionWrapper}>
+								<VideoCamera size={18} color="#b8b8b8" weight="thin" />
+								<span className={style.ProjectAction}>
+									View Demo
 								</span>
 							</div>
 
-							<div className={style.ProjectStackWrapper}>
-								<span>icon</span>
-								<span className={style.ProjectStack}>
-									view demo
+							<div className={style.ProjectActionWrapper}>
+								<Code size={18} color="#b8b8b8" weight="thin" />
+								<span className={style.ProjectAction}>
+									View Code
 								</span>
 							</div>
 						</div>

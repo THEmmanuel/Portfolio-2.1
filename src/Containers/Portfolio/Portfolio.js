@@ -18,17 +18,16 @@ const Portfolio = () => {
 
 			<div className={style.ProjectCardContianer}>
 				{ProjectList.map((project) =>
-					<a href={project.ProjectLiveLink} target="_blank" rel="noopener noreferrer">
-						<ProjectCard
-							ProjectName={project.ProjectName}
-							ProjectImage={project.ProjectImage}
-							ProjectDescription={project.ProjectDescription}
-							ProjectTechnologies={project.ProjectTechnologies}
-							ProjectLiveLink={project.ProjectLiveLink}
-							ProjectColor={project.ProjectColor}
-							key={project.ProjectID}
-						/>
-					</a>
+					<ProjectCard
+						ProjectCategory={project.ProjectCategory}
+						ProjectName={project.ProjectName}
+						ProjectImage={project.ProjectImage}
+						ProjectDescription={project.ProjectDescription}
+						ProjectTechnologies={project.ProjectTechnologies}
+						ProjectLiveLink={project.ProjectLiveLink}
+						ProjectColor={project.ProjectColor}
+						key={project.ProjectID}
+					/>
 				)}
 			</div>
 
@@ -38,3 +37,7 @@ const Portfolio = () => {
 }
 
 export default Portfolio;
+
+
+
+{/* <a href={project.ProjectLiveLink} target="_blank" rel="noopener noreferrer"> */ }
