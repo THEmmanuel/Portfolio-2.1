@@ -19,11 +19,13 @@ const Achievements = () => {
 					<div className={style.BrandsWrapper}>
 						{
 							CertificationsList.map(brand =>
-								<BrandInfo
+								<a href={brand.link} target='blank'>									<BrandInfo
 									brandImage={brand.brandLogo}
 									brandInfoText={brand.brandName}
 									brandLocation={brand.brandLocation}
-								/>)
+								/>
+								</a>
+							)
 						}
 					</div>
 				</div>

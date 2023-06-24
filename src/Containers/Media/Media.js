@@ -16,12 +16,17 @@ const Media = () => {
 			<div className={style.MediaCards}>
 				{
 					MediaList.map(media =>
-						<MediaCard
-							MediaTitle={media.mediaName}
-							MediaPublisher={media.mediaPublisher}
-							MediaDate={media.mediaDate}
-							MediaType={media.mediaType}
-						/>)
+					(
+						<a href={media.link} target='blank'>
+							<MediaCard
+								MediaTitle={media.mediaName}
+								MediaPublisher={media.mediaPublisher}
+								MediaDate={media.mediaDate}
+								MediaType={media.mediaType}
+							/>
+						</a>
+					)
+					)
 				}
 			</div>
 		</div >
