@@ -67,7 +67,7 @@ export const CertificationsList = [{
 
 export const AchievementsList = [
 	{
-		brandName: "150+ books read since 2020",
+		brandName: "170+ books read in three years",
 		brandLogo: books
 	},
 
