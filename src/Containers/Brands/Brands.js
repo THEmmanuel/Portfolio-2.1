@@ -19,11 +19,16 @@ const Brands = () => {
 					<div className={style.BrandsWrapper}>
 						{
 							brandsList.map(brand =>
-								<BrandInfo
-									brandImage={brand.brandLogo}
-									brandInfoText={brand.brandName}
-									brandLocation={brand.brandLocation}
-								/>)
+							(
+								<a href={brand.link} target='blank'>
+									<BrandInfo
+										brandImage={brand.brandLogo}
+										brandInfoText={brand.brandName}
+										brandLocation={brand.brandLocation}
+									/>
+								</a>
+							)
+							)
 						}
 					</div>
 				</div>
@@ -38,11 +43,16 @@ const Brands = () => {
 					<div className={style.BrandsWrapper}>
 						{
 							programList.map(brand =>
-								<BrandInfo
-									brandImage={brand.brandLogo}
-									brandInfoText={brand.brandName}
-									brandLocation={brand.brandLocation}
-								/>)
+							(
+								<a href={brand.link} target='blank'>
+									<BrandInfo
+										brandImage={brand.brandLogo}
+										brandInfoText={brand.brandName}
+										brandLocation={brand.brandLocation}
+									/>
+								</a>
+							)
+							)
 						}
 					</div>
 				</div>
@@ -58,11 +68,16 @@ const Brands = () => {
 					<div className={style.BrandsWrapper}>
 						{
 							openSourceList.map(brand =>
-								<BrandInfo
-									brandImage={brand.brandLogo}
-									brandInfoText={brand.brandName}
-									brandLocation={brand.brandLocation}
-								/>)
+							(
+								<a href={brand.link} target='blank'>
+									<BrandInfo
+										brandImage={brand.brandLogo}
+										brandInfoText={brand.brandName}
+										brandLocation={brand.brandLocation}
+									/>
+								</a>
+							)
+							)
 						}
 					</div>
 				</div>

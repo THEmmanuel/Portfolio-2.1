@@ -118,7 +118,7 @@ export const programList = [{
 		brandName: 'Member. Startup grind Ife',
 		brandLocation: 'Ile-Ife, Nigeria',
 		brandLogo: startupgrind,
-		link: 'https: //www.startupgrind.com/ife/'
+		link: 'https://www.startupgrind.com/ife/'
 	},
 
 	{
