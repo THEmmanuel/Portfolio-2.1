@@ -26,7 +26,7 @@
 	justify-content: center;
 	gap: 20px;
 	padding: 10px;
-	color: #FFF;
+	color: #D6D6D6;
 }
 
 .MainContactButtons{
@@ -37,7 +37,20 @@
 
 .SocialButtons{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin-top: 40px;
+	gap: 20px;
+}
+
+.SocialButton{
+	background-color: #202022;
+	border: 0;
+	color: #CFCFCF;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 8px;
+	border-radius: 8px;
 }
 
 @media(max-width:720px){

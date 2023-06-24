@@ -5,8 +5,14 @@ import HomePrimaryCTA from '../../Components/Buttons/HomePrimaryCTA/HomePrimaryC
 
 import {
 	EnvelopeSimple,
-	DiscordLogo
+	DiscordLogo,
+	LinkedinLogo,
+	GithubLogo,
+	TwitterLogo,
+	DribbbleLogo
 } from "@phosphor-icons/react";
+
+const iconColour = '#606060'
 
 const Contact = (props) => {
 	return (
@@ -21,51 +27,53 @@ const Contact = (props) => {
 							<EnvelopeSimple
 								size={32}
 								weight="thin"
-								color="#FFF"
+								color={iconColour}
 							/>
 							Send a mail!
 						</button>
 
 						<button className={style.ContactButton}>
 							<DiscordLogo
-
 								size={32}
 								weight="thin"
-								color="#FFF"
+								color={iconColour}
 							/>
 							Let's chat on Discord!
 						</button>
 					</div>
 
 					<div className={style.SocialButtons}>
-						<button className={style.ContactButton}>
-							<DiscordLogo
-
+						<button className={style.SocialButton}>
+							<LinkedinLogo
 								size={32}
 								weight="thin"
-								color="#FFF"
-							/>
-							Let's chat on Discord!
+								color={iconColour} />
+							LinkedIn
 						</button>
 
-						<button className={style.ContactButton}>
-							<DiscordLogo
-
+						<button className={style.SocialButton}>
+							<GithubLogo
 								size={32}
 								weight="thin"
-								color="#FFF"
-							/>
-							Let's chat on Discord!
+								color={iconColour} />
+							GitHub
 						</button>
 
-						<button className={style.ContactButton}>
-							<DiscordLogo
-
+						<button className={style.SocialButton}>
+							<TwitterLogo
 								size={32}
 								weight="thin"
-								color="#FFF"
-							/>
-							Let's chat on Discord!
+								color={iconColour} />
+							Twitter
+						</button>
+
+
+						<button className={style.SocialButton}>
+							<DribbbleLogo
+								size={32}
+								weight="thin"
+								color={iconColour} />
+							Dribbble
 						</button>
 					</div>
 				</div>
