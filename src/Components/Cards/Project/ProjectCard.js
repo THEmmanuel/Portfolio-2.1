@@ -17,41 +17,46 @@ const ProjectCard = props => {
 
 	return (
 		<div className={style.ProjectCardContainer}>
-			<Tilt
-				perspective={9800}
-				transitionSpeed={10000}
-				gyroscope={true}
-				glareEnable={true}
-				glareColor={props.ProjectColor}
-			>
+			<div className={style.ProjectCard}>
+				<div className={style.ProjectContainer}>
+					<div className={style.ProjectContent}>
+						<span>
+							Tech stack
+						</span>
 
-				<div className={style.ProjectCard}>
-					<div className={style.ProjectContainer}>
-						<div className={style.ImageContainer}>
-							<div className={style.IconContainer}
-								style={ImageContainerStyle}>
-								<img src={props.ProjectImage} alt="" className={style.ProjectImage} />
+						<span className={style.ProjectTitle}>
+							{props.ProjectName}
+						</span>
+
+						<span className={style.ProjectDescription}>
+							{props.ProjectDescription}
+						</span>
+
+						<div className={style.ProjectStackContainer}>
+							<div className={style.ProjectStackWrapper}>
+								<span>icon</span>
+								<span className={style.ProjectStack}>
+									view demo
+								</span>
 							</div>
-						</div>
 
-						<div className={style.ProjectContent}>
-							<span className={style.ProjectTitle}>
-								{props.ProjectName}
-							</span>
+							<div className={style.ProjectStackWrapper}>
+								<span>icon</span>
+								<span className={style.ProjectStack}>
+									view demo
+								</span>
+							</div>
 
-							<span className={style.ProjectDescription}>
-								{props.ProjectDescription}
-							</span>
-
-							<div className={style.StackIcons}>
-								{props.ProjectTechnologies.map((project) =>
-									<img className={style.StackIcon} src={project} alt="" />)
-								}
+							<div className={style.ProjectStackWrapper}>
+								<span>icon</span>
+								<span className={style.ProjectStack}>
+									view demo
+								</span>
 							</div>
 						</div>
 					</div>
 				</div>
-			</Tilt>
+			</div>
 		</div>
 	)
 };
