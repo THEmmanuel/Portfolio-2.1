@@ -39,7 +39,7 @@ export const brandsList = [{
 
 	{
 		brandName: 'Hydra DAO',
-		brandLocation: 'Singapore',
+		brandLocation: 'Singapore - Japan',
 		brandLogo: hydraIcon,
 		link: ''
 	},
@@ -109,7 +109,7 @@ export const programList = [{
 	},
 
 	{
-		brandName: 'Cycle 44 bootcamp finalist. Top 50/5000+. Andela Leaning Community member',
+		brandName: 'Andela. Cycle 44 bootcamp finalist. Top 50/5000+. Andela Leaning Community member',
 		brandLocation: 'Lagos, Nigeria',
 		brandLogo: andela,
 		link: 'https://andela.com/'

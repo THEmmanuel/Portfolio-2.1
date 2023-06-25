@@ -16,12 +16,17 @@ const Home = (props) => {
 							Hello, I'm Emmanuel Bello.
 						</article>
 
+						<span className={style.WorkTitle}>Senior Fullstack Software Engineer. User Interface Specialist.</span>
+
 						<article className={style.ProfessionalSummary}>
-							Frontend-focused software engineer with half a decade of experience. Passionate about creating clean, accessible and performant User Interfaces. Open Source contributions include Facebook (React) and Shard Labs. Interested in Blockchain and emerging web technologies. Educational background in Quantity Surveying and Construction Cost Management.
+							Senior Software Engineer with 6+ years of experience. My experience working with brands and startups accross multiple fields around the globe combined with my actively curious and experimental nature gives me unique & valuable insights and expertise.
 							<p />
-							Received multiple certifications from Google, Udacity, Buildspace, Andela, Pluralsight and Testdome.
+							Received multiple software certifications. Educational background in Quantity Surveying and Construction Cost Management.
+
 							<p />
-							In my free time, I'm a prolific reader and an avid gamer with a wide array of interests.
+							2x global Hackathon winner. Building Calcium - Stryd (Microsoft Startups Partner) and Project Kinetic (achieved 200x revenue growth since 2018).
+							<p />
+							In my free time, I play video games, read books and goof around with my various hobbies and buddies.
 						</article>
 					</div>
 

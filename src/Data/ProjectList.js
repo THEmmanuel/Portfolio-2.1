@@ -66,7 +66,7 @@ const ProjectList = [{
 		ProjectTechnologies: [typescript, react, git, github, solidity, ethereum],
 		ProjectLiveLink: 'https://impact-score-frontend.vercel.app/',
 		ProjectDemoLink: 'https://ethglobal.com/showcase/impact-self-n5y5t',
-		ProjectRepoLink: null,
+		ProjectRepoLink: 'https://github.com/dottyland',
 		ProjectID: 'Project-01'
 	},
 
