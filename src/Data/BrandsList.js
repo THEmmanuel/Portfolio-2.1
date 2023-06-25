@@ -6,6 +6,7 @@ import hydraIcon from '../Assets/brands/hydradao.svg';
 import lumenIcon from '../Assets/brands/lumen.svg';
 import metamoonIcon from '../Assets/brands/metamoon.svg';
 import seuntIcon from '../Assets/brands/seunt.svg'
+import nubiaIcon from '../Assets/brands/nubia.png'
 
 import buildspace from '../Assets/brands/buildspace.svg';
 import gdsc from '../Assets/brands/gdsc.svg';
@@ -75,6 +76,13 @@ export const brandsList = [{
 		brandLocation: 'Nigeria',
 		brandLogo: lumenIcon,
 		link: 'https://github.com/lumen-corp'
+	},
+
+	{
+		brandName: 'Nubiamania',
+		brandLocation: 'Nigeria',
+		brandLogo: nubiaIcon,
+		link: 'https://nubiamania.onrender.com/'
 	},
 ]
 

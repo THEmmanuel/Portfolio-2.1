@@ -20,6 +20,8 @@ const Portfolio = () => {
 						ProjectDescription={project.ProjectDescription}
 						ProjectTechnologies={project.ProjectTechnologies}
 						ProjectLiveLink={project.ProjectLiveLink}
+						ProjectDemoLink={project.ProjectDemoLink}
+						ProjectRepoLink={project.ProjectRepoLink}
 						ProjectColor={project.ProjectColor}
 						key={project.ProjectID}
 					/>

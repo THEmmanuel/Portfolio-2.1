@@ -39,8 +39,8 @@ const ProjectList = [{
 
 		ProjectTechnologies: [typescript, react, git, github, solidity, ethereum],
 		ProjectLiveLink: 'https://project-stryd.vercel.app/',
-		ProjectDemoink: 'https://youtu.be/txWmvonro0Q',
-		ProjectRepoLink: '',
+		ProjectDemoLink: 'https://youtu.be/txWmvonro0Q',
+		ProjectRepoLink: null,
 		ProjectID: 'Project-01'
 	},
 
@@ -52,8 +52,8 @@ const ProjectList = [{
 
 		ProjectTechnologies: [typescript, react, git, github, solidity, ethereum],
 		ProjectLiveLink: 'https://guide-of-guardians.vercel.app/',
-		ProjectDemoink: '',
-		ProjectRepoLink: '',
+		ProjectDemoLink: null,
+		ProjectRepoLink: null,
 		ProjectID: 'Project-01'
 	},
 
@@ -61,12 +61,12 @@ const ProjectList = [{
 		ProjectCategory: 'Blockchain · NFT · Climate',
 		ProjectName: 'Dottyland Impact Self',
 		ProjectColor: '#851344',
-		ProjectDescription: `Enabling you to benefit from your impact data through a digital sovereign identity.`,
+		ProjectDescription: `Enabling you to benefit from your impact data through a digital sovereign identity. Unlock Protocol Prize Winner`,
 
 		ProjectTechnologies: [typescript, react, git, github, solidity, ethereum],
-		ProjectLiveLink: 'https://project-stryd.vercel.app/',
-		ProjectDemoink: 'https://youtu.be/txWmvonro0Q',
-		ProjectRepoLink: '',
+		ProjectLiveLink: 'https://impact-score-frontend.vercel.app/',
+		ProjectDemoLink: 'https://ethglobal.com/showcase/impact-self-n5y5t',
+		ProjectRepoLink: null,
 		ProjectID: 'Project-01'
 	},
 
@@ -78,8 +78,8 @@ const ProjectList = [{
 		price and a stable market price. Prize winner from ZkSync.`,
 
 		ProjectTechnologies: [typescript, react, git, github, solidity, ethereum],
-		ProjectLiveLink: '',
-		ProjectDemoink: 'https://showcase.ethglobal.com/hackmoney2022/hydra-dao-1cccw',
+		ProjectLiveLink: null,
+		ProjectDemoLink: 'https://showcase.ethglobal.com/hackmoney2022/hydra-dao-1cccw',
 		ProjectRepoLink: 'https://github.com/hydradao/hydradao-smart-contracts',
 		ProjectID: 'Project-01'
 	},
@@ -93,8 +93,8 @@ const ProjectList = [{
 		ProjectTechnologies: [css, javascript, react, firebase, git],
 
 		ProjectLiveLink: 'https://nubiamania.onrender.com/',
-		ProjectDemoink: '',
-		ProjectRepoLink: '',
+		ProjectDemoLink: null,
+		ProjectRepoLink: null,
 		ProjectID: 'Project-03'
 	},
 
@@ -106,7 +106,7 @@ const ProjectList = [{
 
 		ProjectTechnologies: [typescript, react, git, github],
 		ProjectLiveLink: 'https://nft-game-aut3.onrender.com',
-		ProjectDemoink: '',
+		ProjectDemoLink: null,
 		ProjectRepoLink: 'https://github.com/THEmmanuel/epic-nft-game',
 	},
 
@@ -119,7 +119,7 @@ const ProjectList = [{
 
 		ProjectTechnologies: [typescript, react, git, github],
 		ProjectLiveLink: 'https://nft-stuff.onrender.com',
-		ProjectDemoink: '',
+		ProjectDemoLink: null,
 		ProjectRepoLink: 'https://github.com/THEmmanuel/nft-stuff',
 	},
 
@@ -133,8 +133,8 @@ const ProjectList = [{
 		ProjectTechnologies: [css, html, wordpress, javascript, git],
 
 		ProjectLiveLink: 'https://colturemgt.com/',
-		ProjectDemoink: '',
-		ProjectRepoLink: '',
+		ProjectDemoLink: null,
+		ProjectRepoLink: null,
 	},
 
 	{
@@ -146,7 +146,7 @@ const ProjectList = [{
 		ProjectTechnologies: [html, css, javascript, react, git],
 
 		ProjectLiveLink: 'https://pale-blue.onrender.com',
-		ProjectDemoink: '',
+		ProjectDemoLink: null,
 		ProjectRepoLink: 'https://github.com/THEmmanuel/pale-blue-dot-3d/tree/main',
 	},
 
@@ -158,7 +158,7 @@ const ProjectList = [{
 		ProjectTechnologies: [css, javascript, react, webrtc, git],
 
 		ProjectLiveLink: 'https://callr.onrender.com',
-		ProjectDemoink: '',
+		ProjectDemoLink: null,
 		ProjectRepoLink: 'https://github.com/THEmmanuel/React-Video-Call-02/tree/master',
 		ProjectID: 'Project-05'
 	},
@@ -171,7 +171,7 @@ const ProjectList = [{
 
 		ProjectTechnologies: [typescript, react, git, github],
 		ProjectLiveLink: 'https://self-driving.netlify.app',
-		ProjectDemoink: '',
+		ProjectDemoLink: null,
 		ProjectRepoLink: 'https://github.com/THEmmanuel/self-driving-car-simulation',
 	},
 
@@ -183,8 +183,8 @@ const ProjectList = [{
 
 		ProjectTechnologies: [csharp, git],
 
-		ProjectLiveLink: '',
-		ProjectDemoink: '',
+		ProjectLiveLink: null,
+		ProjectDemoLink: null,
 		ProjectRepoLink: 'https://github.com/THEmmanuel/moosic'
 	}
 

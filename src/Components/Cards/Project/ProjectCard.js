@@ -34,26 +34,32 @@ const ProjectCard = props => {
 						</span>
 
 						<div className={style.ProjectStackContainer}>
-							<div className={style.ProjectActionWrapper}>
-								<Eye size={18} color="#b8b8b8" weight="thin" />
-								<span className={style.ProjectAction}>
-									View Live
-								</span>
-							</div>
+							<a href={props.ProjectLiveLink} target='blank'>
+								<div className={style.ProjectActionWrapper}>
+									<Eye size={18} color="#b8b8b8" weight="thin" />
+									<span className={style.ProjectAction}>
+										Live
+									</span>
+								</div>
+							</a>
 
-							<div className={style.ProjectActionWrapper}>
-								<VideoCamera size={18} color="#b8b8b8" weight="thin" />
-								<span className={style.ProjectAction}>
-									View Demo
-								</span>
-							</div>
+							<a href={props.ProjectDemoLink} target='blank'>
+								<div className={style.ProjectActionWrapper}>
+									<VideoCamera size={18} color="#b8b8b8" weight="thin" />
+									<span className={style.ProjectAction}>
+										Demo
+									</span>
+								</div>
+							</a>
 
-							<div className={style.ProjectActionWrapper}>
-								<Code size={18} color="#b8b8b8" weight="thin" />
-								<span className={style.ProjectAction}>
-									View Code
-								</span>
-							</div>
+							<a href={props.ProjectRepoLink} target='blank'>
+								<div className={style.ProjectActionWrapper}>
+									<Code size={18} color="#b8b8b8" weight="thin" />
+									<span className={style.ProjectAction}>
+										Code
+									</span>
+								</div>
+							</a>
 						</div>
 					</div>
 				</div>
