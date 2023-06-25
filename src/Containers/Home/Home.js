@@ -24,7 +24,7 @@ const Home = (props) => {
 							Received multiple software certifications. Educational background in Quantity Surveying and Construction Cost Management.
 
 							<p />
-							2x global Hackathon winner. Building Calcium - Stryd (Microsoft Startups Partner) and Project Kinetic (achieved 200x revenue growth since 2018).
+							2x global blockchain hackathon prize winner. Building Calcium - Stryd (Microsoft Startups Partner) and Project Kinetic (achieved 200x revenue growth since 2018).
 							<p />
 							In my free time, I play video games, read books and goof around with my various hobbies and buddies.
 						</article>

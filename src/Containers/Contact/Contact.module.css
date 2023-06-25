@@ -34,6 +34,11 @@
 	padding: 10px;
 	color: #D6D6D6;
 	text-align: left;
+	transition: all 1s ease-in-out;
+}
+
+.ContactButton:hover{
+	background-color: #272730;
 }
 
 .MainContactButtons {
