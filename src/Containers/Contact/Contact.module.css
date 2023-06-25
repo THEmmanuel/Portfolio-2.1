@@ -45,19 +45,23 @@
 .SocialButtons {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	margin-top: 40px;
 	gap: 20px;
 }
 
 .SocialButton {
-	background-color: #202022;
+	background-color: transparent;
 	border: 0;
 	color: #CFCFCF;
 	display: flex;
 	align-items: center;
-	gap: 10px;
-	padding: 8px;
-	border-radius: 8px;
+	gap: 5px;
+	padding: 10px;
+	border-radius: 20px;
+	transition: all 1s ease-in-out;
+}
+
+.SocialButton:hover {
+	background-color: #202022;
 }
 
 @media(max-width:720px) {

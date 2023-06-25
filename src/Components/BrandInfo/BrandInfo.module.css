@@ -7,6 +7,14 @@
 	justify-content: center;
 	text-align: center;
 	align-items: center;
+	padding: 15px;
+	transition: all 1s ease-in-out;
+	border-radius: 10px;
+}
+
+.BrandInfoWrapper:hover {
+	background-color: #1D1E1B;
+	;
 }
 
 .BrandInfo {

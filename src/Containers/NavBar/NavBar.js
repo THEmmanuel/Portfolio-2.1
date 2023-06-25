@@ -8,9 +8,12 @@ import {
 const NavBar = (props) => {
 	return (
 		<nav className={style.NavBar}>
-			<span className={style.NavLogo}>
-				E
-			</span>
+			<Link to='home' smooth='true'>
+				<span className={style.NavLogo}>
+					E
+				</span>
+			</Link>
+
 
 			<div className={style.NavItemsContainer}>
 				<Link to='home' smooth='true'>
