@@ -1,56 +1,45 @@
 .NavBar {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background-color: #151515;
-    margin: auto;
-    height: 40px;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	background-color: #151515;
+	margin: auto;
+	height: 40px;
+	display: flex;
+	max-width: 1200px;
+	justify-content: space-between;
+	color: #FFF;
+	padding: 20px;
+	align-items: center;
 }
 
 .NavContent {
-    display: flex;
-    flex-direction: row;
-    grid-gap: 50%;
-    text-align: center;
-    margin-left: 14px;
-    justify-content: center;
+	display: flex;
+	flex-direction: row;
+	grid-gap: 50%;
+	text-align: center;
+	margin-left: 14px;
+	justify-content: center;
 }
 
 .NavLogo {
+	font-size: 1.2rem;
+	padding: 8px 15px;
+	color: #151515;
+	background-color: #FFF;
+	border-radius: 5px;
 }
 
-.NavButton {
-    
-}
-
-/* .NavBar {
-    display: flex;
-    flex-direction: column;
-    grid-gap: 5px;
-    font-size: 1.2em;
-    padding-left: 20px;
-}
-
-.Line{
-    height: 1px;
-    width: 35px;
-    background-color: darkgrey;
-    margin: auto 20px 5px 20px;
-    transition: all .2s ease-in-out;
-    align-items: center;
-}
+.NavButton {}
 
 .NavItem {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    transform: scale(1.1);
+	color: #606060;
+	font-size: 0.85em;
 }
 
-.Line:hover {
-    width: 50px;
+.NavItemsContainer{
+	display: flex;
+	flex-direction: row;
+	gap: 60px;
+	justify-content: center;
 }
-
-.NavBar span {
-    width: 25px;
-} */

@@ -2,41 +2,30 @@ import React, { useState } from 'react'
 import style from './NavBar.module.css'
 
 const NavBar = (props) => {
-    return (
-        <nav className={style.NavBar}>
-            <div className={style.NavItem}>
-                <span>01</span>
-                <div className={style.LineContainer}>
-                    <div className={style.Line}></div>
-                </div>
-                <div>Projects</div>
-            </div>
+	return (
+		<nav className={style.NavBar}>
+			<span className={style.NavLogo}>
+				E
+			</span>
 
-            <div className={style.NavItem}>
-                <span>02</span>
-                <div className={style.LineContainer}>
-                    <div className={style.Line}></div>
-                </div>
-                <div>Experience</div>
-            </div>
+			<div className={style.NavItemsContainer}>
 
-            <div className={style.NavItem}>
-                <span>03</span>
-                <div className={style.LineContainer}>
-                    <div className={style.Line}></div>
-                </div>
-                <div>Contact</div>
-            </div>
+				<span className={style.NavItem}>Home</span>
 
-            <div className={style.NavItem}>
-                <span>04</span>
-                <div className={style.LineContainer}>
-                    <div className={style.Line}></div>
-                </div>
-                <div>Resume</div>
-            </div>
-        </nav>
-    )
+				<span className={style.NavItem}>Brands</span>
+
+				<span className={style.NavItem}>Projects</span>
+
+				<span className={style.NavItem}>Media</span>
+
+				<span className={style.NavItem}>Achievements</span>
+
+				<span className={style.NavItem}>Contact</span>
+			</div>
+
+			<span>Resume</span>
+		</nav>
+	)
 };
 
 export default NavBar;

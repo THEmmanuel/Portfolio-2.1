@@ -11,6 +11,7 @@ span {
 	justify-content: center;
 	max-height: 1920px;
 	background-position: right 20% bottom 50%;
+	margin: auto;
 }
 
 .IntroductionContainer {

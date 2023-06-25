@@ -12,13 +12,13 @@ import Achievements from './Containers/Achievements/Achievements'
 function App() {
 	return (
 		<div className="App">
-			{/* <NavBar /> */}
 			<div className="App-Content">
+				<NavBar />
 				<Home />
 				<Brands />
 				<Portfolio />
 				<Media />
-				<Achievements />				
+				<Achievements />
 				<Contact />
 				<Footer />
 			</div>
