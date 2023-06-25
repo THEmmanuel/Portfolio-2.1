@@ -6,7 +6,7 @@ import { AchievementsList, CertificationsList } from '../../Data/AchievementsLis
 
 const Achievements = () => {
 	return (
-		<div className={style.BrandsPage}>
+		<div className={style.BrandsPage} id='achievements'>
 			<div className={style.Brands}>
 				<div className={style.BrandContainer}>
 					<div className='HeadingWrapper'>

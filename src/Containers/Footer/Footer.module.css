@@ -1,6 +1,7 @@
 .Footer {
     height: 12vh;
-    background-color: #1F1F1F;
+	padding-top: 100px;
+    /* background-color: #1F1F1F; */
 }
 
 .FooterText {

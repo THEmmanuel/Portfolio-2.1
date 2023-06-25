@@ -1,5 +1,9 @@
 import React, { useState } from 'react'
 import style from './NavBar.module.css'
+import { Link } from 'react-scroll';
+import {
+	GoogleDriveLogo
+} from "@phosphor-icons/react";
 
 const NavBar = (props) => {
 	return (
@@ -9,21 +13,37 @@ const NavBar = (props) => {
 			</span>
 
 			<div className={style.NavItemsContainer}>
+				<Link to='home' smooth='true'>
+					<span className={style.NavItem}>Home</span>
+				</Link>
 
-				<span className={style.NavItem}>Home</span>
+				<Link to='brands' smooth='true'>
+					<span className={style.NavItem}>Brands</span>
+				</Link>
 
-				<span className={style.NavItem}>Brands</span>
+				<Link to='portfolio' smooth='true'>
+					<span className={style.NavItem}>Projects</span>
+				</Link>
 
-				<span className={style.NavItem}>Projects</span>
+				<Link to='media' smooth='true'>
+					<span className={style.NavItem}>Media</span>
+				</Link>
 
-				<span className={style.NavItem}>Media</span>
+				<Link to='achievements' smooth='true'>
+					<span className={style.NavItem}>Achievements</span>
+				</Link>
 
-				<span className={style.NavItem}>Achievements</span>
-
-				<span className={style.NavItem}>Contact</span>
+				<Link to='contact' smooth='true'>
+					<span className={style.NavItem}>Contact</span>
+				</Link>
 			</div>
 
-			<span>Resume</span>
+			<a href="https://drive.google.com/file/d/1IsXWBpqMs-a8oSLRK4HfHWHUJEWAR7pf/view" target="_blank" rel="noopener noreferrer">
+				<div className={style.NavItemWrapper}>
+					<span className={style.NavItem}>Resume</span>
+					<GoogleDriveLogo size={25} color="#b8b8b8" weight="thin" />
+				</div>
+			</a>
 		</nav>
 	)
 };

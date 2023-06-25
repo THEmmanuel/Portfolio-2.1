@@ -5,7 +5,7 @@ import { MediaList } from '../../Data/MediaList';
 
 const Media = () => {
 	return (
-		<div className={style.Media}>
+		<div className={style.Media} id='media'>
 			<div className='HeadingWrapper'>
 				<div className='HeadingContainer'>
 					<span className='Heading'>Media</span>

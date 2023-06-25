@@ -6,7 +6,7 @@ import { brandsList, programList, openSourceList } from '../../Data/BrandsList';
 
 const Brands = () => {
 	return (
-		<div className={style.BrandsPage}>
+		<div className={style.BrandsPage} id='brands'>
 			<div className={style.Brands}>
 				<div className={style.BrandContainer}>
 					<div className='HeadingWrapper'>
