@@ -34,30 +34,38 @@ const ProjectCard = props => {
 						</span>
 
 						<div className={style.ProjectStackContainer}>
-							<a href={props.ProjectLiveLink} target='blank'>
-								<div className={style.ProjectActionWrapper}>
-									<Eye size={18} color="#b8b8b8" weight="thin" />
-									<span className={style.ProjectAction}>
-										Live
-									</span>
+							<a
+								href={props.ProjectLiveLink}
+								target='blank'>
+								<div className={style.ProjectStack}>
+									<div className={style.ProjectActionWrapper}>
+										<Eye size={18} color="#b8b8b8" weight="thin" />
+										<span className={style.ProjectAction}>
+											Live
+										</span>
+									</div>
 								</div>
 							</a>
 
 							<a href={props.ProjectDemoLink} target='blank'>
-								<div className={style.ProjectActionWrapper}>
-									<VideoCamera size={18} color="#b8b8b8" weight="thin" />
-									<span className={style.ProjectAction}>
-										Demo
-									</span>
+								<div className={style.ProjectStack}>
+									<div className={style.ProjectActionWrapper}>
+										<VideoCamera size={18} color="#b8b8b8" weight="thin" />
+										<span className={style.ProjectAction}>
+											Demo
+										</span>
+									</div>
 								</div>
 							</a>
 
 							<a href={props.ProjectRepoLink} target='blank'>
-								<div className={style.ProjectActionWrapper}>
-									<Code size={18} color="#b8b8b8" weight="thin" />
-									<span className={style.ProjectAction}>
-										Code
-									</span>
+								<div className={style.ProjectStack}>
+									<div className={style.ProjectActionWrapper}>
+										<Code size={18} color="#b8b8b8" weight="thin" />
+										<span className={style.ProjectAction}>
+											Code
+										</span>
+									</div>
 								</div>
 							</a>
 						</div>

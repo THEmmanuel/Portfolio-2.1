@@ -25,12 +25,26 @@
 	justify-content: center;
 }
 
+.ProjectStack {
+	padding: 5px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 1s;
+}
+
+.ProjectStack:hover {
+	background-color: #272730;
+	border-radius: 25px;
+}
+
 .ProjectAction {
 	font-size: 0.8em;
 	color: rgba(255, 255, 255, 0.20);
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: auto;
 }
 
 .ProjectStackWrapper {
