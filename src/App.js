@@ -13,7 +13,7 @@ function App() {
 	return (
 		<div className="App">
 			<div className="App-Content">
-				<NavBar />
+				{/* <NavBar /> */}
 				<Home />
 				<Brands />
 				<Portfolio />

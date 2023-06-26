@@ -13,4 +13,4 @@ const BrandInfo = (props) => {
 	)
 }
 
-export default BrandInfo
+export default BrandInfo;

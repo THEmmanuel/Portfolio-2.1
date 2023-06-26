@@ -14,12 +14,12 @@
 
 .BrandInfoWrapper:hover {
 	background-color: #1D1E1B;
-	;
 }
 
 .BrandInfo {
 	color: #7A7979;
 	font-size: 0.85em;
+	min-width: 80px;
 }
 
 .BrandLocation {
@@ -31,7 +31,6 @@
 .BrandImage {
 	max-height: 50px;
 	max-width: 120px;
-	height: 50px;
 }
 
 .BrandsPage {}
@@ -46,4 +45,19 @@
 .BrandContainer {
 	margin: auto;
 	max-width: 1000px;
+}
+
+@media(max-width:720px) {
+	.BrandImage{
+		max-height: 25px;
+		max-width: 80px;
+	}
+
+	.BrandInfo{
+		font-size: 0.7em;
+	}
+
+	.BrandLocation{
+		font-size: 0.6em;
+	}
 }

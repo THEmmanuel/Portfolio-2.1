@@ -126,7 +126,6 @@
 	}
 
 	.ProjectContent {
-		/* padding: auto 20px auto 20px; */
 		padding-left: 20px;
 		padding-right: 20px;
 		margin: auto;
@@ -137,5 +136,9 @@
 		/* padding: auto 20px auto 20px; */
 		margin: auto;
 		/* margin-bottom: 25px; */
+	}
+
+	.ProjectCategory{
+		
 	}
 }

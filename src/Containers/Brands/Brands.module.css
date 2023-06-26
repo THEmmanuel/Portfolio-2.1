@@ -30,6 +30,12 @@
 	color: #FFF;
 }
 
-.SocialButtonsWrapper{
+.SocialButtonsWrapper {
 	justify-content: center;
+}
+
+@media(max-width:720px) {
+	.BrandsWrapper{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
