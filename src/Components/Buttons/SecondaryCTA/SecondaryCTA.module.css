@@ -15,3 +15,11 @@
     background-color: #C1C1C1;
     color: #525252;
 }
+
+@media(max-width: 720px){
+    .SecondaryCTA{
+        width: 75px;
+        height: 30px;
+        font-size: 0.6em;
+    }
+}

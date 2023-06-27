@@ -95,15 +95,15 @@ export const programList = [{
 	},
 
 	{
-		brandName: 'ETHGlobal. 3x participant. 2x hackathon prize winner. Community member',
+		brandName: 'ETHGlobal. 3x participant. 2x hackathon prize winner.',
 		brandLocation: 'Worldwide',
 		brandLogo: ethglobal,
 		link: 'https://ethglobal.com/'
 	},
 
 	{
-		brandName: 'Buildspace Nights and Weekends s3 finalist. Top 250/7500 projects.',
-		brandLocation: 'Worldwide',
+		brandName: 'buildspace n&w s3 finalist. top 250/7500 projects.',
+		brandLocation: 'worldwide',
 		brandLogo: buildspace,
 		link: 'https://buildspace.so/'
 	},

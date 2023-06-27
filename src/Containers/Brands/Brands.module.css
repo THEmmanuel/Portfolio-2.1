@@ -38,4 +38,8 @@
 	.BrandsWrapper{
 		grid-template-columns: 1fr 1fr 1fr;
 	}
+
+	.Brands{
+		gap: 50px;
+	}
 }

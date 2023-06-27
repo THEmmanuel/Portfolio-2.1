@@ -121,6 +121,10 @@
 		width: 95%;
 	}
 
+	.ProjectAction{
+		font-size: 0.7em;
+	}
+
 	.ImageContainer {
 		display: none;
 	}

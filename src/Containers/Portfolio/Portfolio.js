@@ -7,7 +7,7 @@ import HomePrimaryCTA from '../../Components/Buttons/HomePrimaryCTA/HomePrimaryC
 const Portfolio = () => {
 	return (
 		<section className={style.Portfolio} id='portfolio'>
-			<h2 className='SectionTitle'>
+			<h2 className='Heading'>
 				Selected Projects
 			</h2>
 
