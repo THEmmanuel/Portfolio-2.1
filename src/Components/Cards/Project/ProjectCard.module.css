@@ -118,7 +118,7 @@
 
 @media (max-width: 720px) {
 	.ProjectCardContainer {
-		/* width: 100%; */
+		width: 95%;
 	}
 
 	.ImageContainer {
@@ -139,6 +139,14 @@
 	}
 
 	.ProjectCategory{
-		
+		font-size: 0.5em;
+	}
+
+	.ProjectTitle{
+		font-size: 0.75em;
+	}
+
+	.ProjectDescription{
+		font-size: 0.7em;
 	}
 }
