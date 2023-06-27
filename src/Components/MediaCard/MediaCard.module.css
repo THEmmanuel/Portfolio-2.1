@@ -37,4 +37,16 @@
 	.MediaCard{
 		width: 95%;
 	}
+
+	.MediaTitle{
+		font-size: 0.75em;
+	}
+
+	.MediaPublisher{
+		font-size: 0.7em;
+	}
+
+	.MediaDate{
+		font-size: 0.6em;
+	}
 }
